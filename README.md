@@ -1,6 +1,20 @@
-<!-- ================= Animated Header ================= -->
+<!-- =========================================================
+     MOHAMMED AL-HAJ — GITHUB PROFILE (GITSKINS SHOWCASE EDITION)
+     ========================================================= -->
+
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=2600&pause=700&color=00F7FF&center=true&vCenter=true&width=1000&lines=Mohammed+Al-Haj;AI+Engineer+%7C+Machine+Learning+%26+LLMs;Architecting+Multi-Agent+Systems+%26+Production+RAG;Building+End-to-End+Intelligent+Applications" alt="Typing SVG" />
+  <img src="https://www.gitskins.com/api/section/wordmark?username=mohammed-m-alhaj&theme=aurora&label=Mohammed%20Al-Haj" width="100%" alt="3D ASCII wordmark for Mohammed Al-Haj" />
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/hero?username=mohammed-m-alhaj&theme=aurora&mode=light" />
+    <img src="https://www.gitskins.com/api/section/hero?username=mohammed-m-alhaj&theme=aurora&mode=dark" width="100%" alt="Animated GitHub profile hero for Mohammed Al-Haj" />
+  </picture>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2600&pause=700&color=00F7FF&center=true&vCenter=true&width=1000&lines=AI+Engineer+%7C+Machine+Learning+%26+LLMs;Architecting+Multi-Agent+Systems+%26+Production+RAG;Building+End-to-End+Intelligent+Applications" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -14,37 +28,22 @@
 
 ### 👨‍💻 About Me
 
-I am an **AI Engineer** specializing in designing and deploying production-ready intelligent systems. My core expertise centers on **Large Language Models (LLMs)**, **Multi-Agent Orchestration (LangGraph)**, **Retrieval-Augmented Generation (RAG)**, and **Computer Vision Pipelines**, backed by distributed data engines and resilient async backends.
+I am an **AI Engineer** focused on architecting and deploying resilient, scalable production systems. My work bridges **Large Language Models (LLMs)**, **Multi-Agent Orchestration (LangGraph)**, **Advanced RAG**, and **Computer Vision Pipelines**, backed by distributed big-data engines and asynchronous backend services.
 
-* 🧠 **Specialization**: Agentic Workflows, Advanced RAG, Distributed Data Pipelines, and Multimodal Systems.
-* ⚡ **Hardware Acceleration**: Local NVIDIA RTX 5070 Ti (CUDA 13.4, PyTorch `cuda:0`) for offline model inference & fine-tuning.
-* 🌍 **Collaboration**: Open to high-impact remote engineering roles, AI consulting, and research collaborations worldwide.
+* 🧠 **Primary Focus**: Agentic Systems, Production RAG, Multimodal AI, and Distributed Data Engineering.
+* ⚡ **Hardware Acceleration**: Local NVIDIA RTX 5070 Ti (CUDA 13.4, PyTorch `cuda:0`) for offline inference, fine-tuning, and model evaluation.
+* 🌍 **Availability**: Open to high-impact remote engineering roles, AI consulting, and technical collaborations worldwide.
 
 ---
 
-### 🛠️ Core Engineering Arsenal
-
-<div align="center">
-
-| Domain | Technologies & Frameworks |
-|---|---|
-| **AI, LLMs & Agents** | `LangGraph` `LangChain` `RAG Pipelines` `Multi-Agent Routing` `HuggingFace` `Ollama` `Vector DBs (Qdrant, Milvus)` |
-| **Machine Learning & Vision** | `PyTorch` `TensorFlow` `YOLOv8` `OpenCV` `EasyOCR` `Scikit-learn` `NLP (SpaCy, NLTK)` |
-| **Backend & Cloud Architecture** | `FastAPI (Async)` `Django REST` `Docker` `PostgreSQL` `MongoDB` `Redis` `WebSockets` |
-| **Big Data & Pipelines** | `Apache Spark` `PySpark` `Idempotent ETL` `Data Cleaning` `Automated Quality Gates` |
-| **Client & Interfaces** | `Flutter (Offline-First)` `React.js` `Streamlit` `RESTful APIs` |
-
-<br/>
+### 🚀 Showcase: Featured Flagship Projects
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,docker,postgres,mongodb,flutter,react,git,linux" alt="Tech Stack Icons" />
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/projects?username=mohammed-m-alhaj&theme=aurora&repos=mohammed-m-alhaj%2Ftaskflow%2Cmohammed-m-alhaj%2Fyemen-licenser-plate-recognition-system%2Cmohammed-m-alhaj%2FmindRouter-agent%2Cmohammed-m-alhaj%2Fdata-migration-pipeline&mode=light" />
+    <img src="https://www.gitskins.com/api/section/projects?username=mohammed-m-alhaj&theme=aurora&repos=mohammed-m-alhaj%2Ftaskflow%2Cmohammed-m-alhaj%2Fyemen-licenser-plate-recognition-system%2Cmohammed-m-alhaj%2FmindRouter-agent%2Cmohammed-m-alhaj%2Fdata-migration-pipeline&mode=dark" width="100%" alt="Mohammed Al-Haj animated project constellation" />
+  </picture>
 </p>
-
-</div>
-
----
-
-### 🚀 Flagship Production Showcases
 
 <table width="100%">
   <tr>
@@ -107,15 +106,49 @@ I am an **AI Engineer** specializing in designing and deploying production-ready
 
 ---
 
-### 📊 GitHub Activity & Metrics
+### 🛠️ Core Engineering Arsenal
+
+<div align="center">
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mohammed-m-alhaj&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohammed-m-alhaj&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stack?username=mohammed-m-alhaj&theme=aurora&mode=light" />
+    <img src="https://www.gitskins.com/api/section/stack?username=mohammed-m-alhaj&theme=aurora&mode=dark" width="100%" alt="Mohammed Al-Haj animated technology stack" />
+  </picture>
+</p>
+
+| Domain | Technologies & Frameworks |
+|---|---|
+| **AI, LLMs & Agents** | `LangGraph` `LangChain` `RAG Pipelines` `Multi-Agent Routing` `HuggingFace` `Ollama` `Vector DBs (Qdrant, Milvus)` |
+| **Machine Learning & Vision** | `PyTorch` `TensorFlow` `YOLOv8` `OpenCV` `EasyOCR` `Scikit-learn` `NLP (SpaCy, NLTK)` |
+| **Backend & Cloud Architecture** | `FastAPI (Async)` `Django REST` `Docker` `PostgreSQL` `MongoDB` `Redis` `WebSockets` |
+| **Big Data & Pipelines** | `Apache Spark` `PySpark` `Idempotent ETL` `Data Cleaning` `Automated Quality Gates` |
+| **Client & Interfaces** | `Flutter (Offline-First)` `React.js` `Streamlit` `RESTful APIs` |
+
+<br/>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,docker,postgres,mongodb,flutter,react,git,linux" alt="Tech Stack Icons" />
+</p>
+
+</div>
+
+---
+
+### 📊 Performance & Consistency Signals
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stats?username=mohammed-m-alhaj&theme=aurora&mode=light" />
+    <img src="https://www.gitskins.com/api/section/stats?username=mohammed-m-alhaj&theme=aurora&mode=dark" width="100%" alt="Mohammed Al-Haj animated GitHub stats" />
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mohammed-m-alhaj&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/heatmap?username=mohammed-m-alhaj&theme=aurora&style=jet&mode=light" />
+    <img src="https://www.gitskins.com/api/section/heatmap?username=mohammed-m-alhaj&theme=aurora&style=jet&mode=dark" width="100%" alt="Mohammed Al-Haj contribution heatmap" />
+  </picture>
 </p>
 
 ---
@@ -124,4 +157,6 @@ I am an **AI Engineer** specializing in designing and deploying production-ready
   <i>"Passionate about turning state-of-the-art AI research into resilient, scalable production products."</i>
   <br/>
   <b>Mohammed AL-Haj</b> · Sana'a, Yemen
+  <br/>
+  <sub>Profile rendered with GitSkins Showcase Visual Architecture</sub>
 </p>
