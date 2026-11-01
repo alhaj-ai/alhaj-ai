@@ -1,159 +1,173 @@
-<div align="center">
+<!-- ================= Animated Header ================= -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=2600&pause=700&color=00F7FF&center=true&vCenter=true&width=1000&lines=Mohammed+Al-Haj;AI+Engineer+%7C+LLMs+%26+Machine+Learning;Building+Scalable+Production+AI+Systems;Open+to+Opportunities+Worldwide" alt="Mohammed Al-Haj" />
+</p>
 
-# Mohammed AL-Haj
-### 🤖 AI Engineer | LLMs, Multi-Agent Systems & Computer Vision
-
-**I architect and deploy resilient, production-grade intelligent systems.**  
-Bridging autonomous agent orchestration (LangGraph), computer vision pipelines (YOLOv8 + OCR), and distributed big data engines (PySpark).
-
-<br/>
-
-[![Status: Open to Work](https://img.shields.io/badge/Status-Open%20to%20Remote%20Roles-10b981?style=for-the-badge&logo=statuspage&logoColor=white)](mailto:ai.mohammed.alhaj@gmail.com)
-[![Hardware: RTX 5070 Ti](https://img.shields.io/badge/Local%20Compute-RTX%205070%20Ti%20(12GB%20VRAM)-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://github.com/mohammed-m-alhaj)
-[![Email](https://img.shields.io/badge/Email-ai.mohammed.alhaj%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ai.mohammed.alhaj@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohammed%20Al--Haj-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mohammed-mohammed-al-haj-341ab7369)
-[![GitHub Followers](https://img.shields.io/github/followers/mohammed-m-alhaj?style=for-the-badge&logo=github&color=181717)](https://github.com/mohammed-m-alhaj?tab=followers)
-
-<br/>
-
-[🚀 Flagship Projects](#-flagship-production-systems) •
-[🏛️ Core Arsenal](#%EF%B8%8F-technical-arsenal--architecture) •
-[💼 Why Hire Me?](#-what-i-bring-to-engineering-teams) •
-[📬 Get in Touch](#-direct-contact)
-
-</div>
+<p align="center">
+  <a href="mailto:ai.mohammed.alhaj@gmail.com"><img src="https://img.shields.io/badge/Email-ai.mohammed.alhaj%40gmail.com-00F7FF?style=for-the-badge&logo=gmail&logoColor=black" alt="Email" /></a>
+  <a href="https://linkedin.com/in/mohammed-mohammed-al-haj-341ab7369"><img src="https://img.shields.io/badge/LinkedIn-Mohammed%20Al--Haj-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://x.com/mod_alhaj"><img src="https://img.shields.io/badge/Twitter%2FX-%40mod__alhaj-000000?style=for-the-badge&logo=x&logoColor=white" alt="Twitter/X" /></a>
+  <a href="https://github.com/mohammed-m-alhaj"><img src="https://img.shields.io/badge/Status-Open%20to%20Work%20%7C%20Remote-10b981?style=for-the-badge&logo=github&logoColor=white" alt="Status" /></a>
+</p>
 
 ---
 
-## 💡 Executive Summary
+## 👋 Hi, I'm Mohammed Al-Haj
 
-I am an **AI Engineer** with hands-on experience building end-to-end AI applications and resilient distributed backends. Rather than relying on simple wrappers or isolated notebooks, I focus on **scalable, fault-tolerant production systems**:
+💡 **AI Engineer** focused on designing, building, and deploying real-world intelligent systems.
 
-- 🧠 **Agentic AI & LLMs**: Designing deterministic and autonomous multi-agent stategraphs with **LangGraph**, **LangChain**, and **Advanced RAG**.
-- 👁️ **Computer Vision & OCR**: Multi-stage deep learning pipelines using **YOLOv8**, **OpenCV**, and **EasyOCR** for complex unconstrained text extraction.
-- ⚙️ **Data Engineering & Scaling**: Distributed ETL architectures in **Apache Spark (PySpark)** and **MongoDB** handling tens of thousands of rows/sec with zero data loss.
-- 📱 **Full-Stack Client Delivery**: Offline-first mobile products in **Flutter** with background synchronization and local AI fallbacks.
+I specialize in **Large Language Models (LLMs)**, **Multi-Agent Orchestration (LangGraph)**, **Advanced RAG**, **Computer Vision**, and **Data Systems** — bridging cutting-edge AI models with scalable, production-ready backend architectures.
 
 ---
 
-## 🚀 Flagship Production Systems
+## 🚀 What I Bring to Teams
 
-### 1. [TaskFlow — Smart Offline-First AI Productivity Suite](https://github.com/mohammed-m-alhaj/taskflow)
-> **A complete, enterprise-grade task management system with native Arabic RTL, zero-latency offline SQLite storage, and Google Gemini AI integration.**
-
-[![GitHub Stars](https://img.shields.io/github/stars/mohammed-m-alhaj/taskflow?style=flat-square&color=gold&label=⭐%20Star%20Repo)](https://github.com/mohammed-m-alhaj/taskflow)
-[![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?style=flat-square&logo=flutter&logoColor=white)](https://github.com/mohammed-m-alhaj/taskflow)
-[![FastAPI](https://img.shields.io/badge/FastAPI-Async-009688?style=flat-square&logo=fastapi&logoColor=white)](https://github.com/mohammed-m-alhaj/taskflow)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://github.com/mohammed-m-alhaj/taskflow)
-[![Docker](https://img.shields.io/badge/Docker-Compose%20Ready-2496ED?style=flat-square&logo=docker&logoColor=white)](https://github.com/mohammed-m-alhaj/taskflow)
-
-* **The Problem**: Cloud-only productivity tools crash on unstable networks; typical toy apps lack scalable backends.
-* **The Architecture**: Dual-engine design. Offline actions execute locally in **SQLite (`sqflite`)** with zero UI latency. Background **Dio interceptors** synchronize bidirectionally with an asynchronous **FastAPI + PostgreSQL** backend.
-* **AI Capability**: Decomposes natural language goals into scheduled checklists using **Google Gemini AI**, with an embedded rule-based offline NLP matcher when disconnected.
-* **[📱 Pre-built APK Available for Download](https://github.com/mohammed-m-alhaj/taskflow#--download-apk-android)**
-
-```
-[Flutter Mobile App] ──(Offline Cache)──► [Local SQLite Engine]
-          │
-     (Sync Interceptor)
-          ▼
-[FastAPI Async Server] ──► [PostgreSQL 15] ──► [Google Gemini AI API]
-```
+- 🤖 **Agentic & LLM Systems**: Multi-agent reasoning workflows, intent classification, and production RAG pipelines (LangGraph, LangChain).
+- 👁️ **Computer Vision & OCR**: Multi-stage detection, segmentation, and mixed-script text recognition pipelines (YOLOv8, OpenCV, EasyOCR).
+- ⚙️ **Scalable Backends & APIs**: High-throughput asynchronous REST services and secure microservices (FastAPI, Django REST, Docker).
+- 🔄 **Distributed Data Pipelines**: Resilient ELT engines with automated quality enforcement and idempotency (Apache Spark, PySpark, MongoDB).
+- 📱 **End-to-End Applications**: Full-stack cross-platform apps with offline-first synchronization (Flutter, SQLite, PostgreSQL).
 
 ---
 
-### 2. [Enterprise Hybrid Data Migration & Quality Engine](https://github.com/mohammed-m-alhaj/data-migration-pipeline)
-> **Production-grade ELT pipeline processing high-volume dirty datasets with automated file routing, 9 deterministic quality rules, and cryptographic SHA-256 idempotency.**
+## 🚀 Featured Flagship Projects
 
-[![GitHub Stars](https://img.shields.io/github/stars/mohammed-m-alhaj/data-migration-pipeline?style=flat-square&color=gold&label=⭐%20Star%20Repo)](https://github.com/mohammed-m-alhaj/data-migration-pipeline)
-[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/mohammed-m-alhaj/data-migration-pipeline)
-[![PySpark](https://img.shields.io/badge/Apache%20Spark-PySpark%203.5-E25A1C?style=flat-square&logo=apachespark&logoColor=white)](https://github.com/mohammed-m-alhaj/data-migration-pipeline)
-[![MongoDB](https://img.shields.io/badge/MongoDB-8.0-47A248?style=flat-square&logo=mongodb&logoColor=white)](https://github.com/mohammed-m-alhaj/data-migration-pipeline)
-[![PyTest](https://img.shields.io/badge/Tests-15%20Passed%20(100%25)-brightgreen?style=flat-square&logo=pytest&logoColor=white)](https://github.com/mohammed-m-alhaj/data-migration-pipeline)
+<p align="center">
+  <a href="https://github.com/mohammed-m-alhaj/taskflow">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mohammed-m-alhaj&repo=taskflow&theme=tokyonight" />
+  </a>
+  <a href="https://github.com/mohammed-m-alhaj/yemen-licenser-plate-recognition-system">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mohammed-m-alhaj&repo=yemen-licenser-plate-recognition-system&theme=tokyonight" />
+  </a>
+</p>
 
-* **The Problem**: Raw migration data contains Eastern Arabic digits (`٠-٩`), colloquial currency strings, and schema drift, causing traditional ETL scripts to crash or drop records silently.
-* **The Architecture**: Dynamic router dispatches files $\le 200\text{ MB}$ to a low-overhead Python streaming loader ($O(1)$ RAM), and files $> 200\text{ MB}$ to a **16-partition distributed PySpark cluster**.
-* **Zero Data Loss**: Strict mathematical run balance: $\text{Raw} = \text{Valid} + \text{Corrected} + \text{Quarantine}$.
-* **Empirical Throughput**: Recorded processing speeds up to **~35,385 rows/sec** on multi-core partitions with automated SHA-256 duplicate elimination.
+<p align="center">
+  <a href="https://github.com/mohammed-m-alhaj/mindRouter-agent">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mohammed-m-alhaj&repo=mindRouter-agent&theme=tokyonight" />
+  </a>
+  <a href="https://github.com/mohammed-m-alhaj/data-migration-pipeline">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mohammed-m-alhaj&repo=data-migration-pipeline&theme=tokyonight" />
+  </a>
+</p>
 
----
-
-### 3. [Yemen License Plate Recognition System](https://github.com/mohammed-m-alhaj/yemen-licenser-plate-recognition-system)
-> **End-to-end multi-stage deep learning pipeline for automated detection, segmentation, and recognition of mixed Arabic/English vehicle plates across 21 governorates.**
-
-[![GitHub Stars](https://img.shields.io/github/stars/mohammed-m-alhaj/yemen-licenser-plate-recognition-system?style=flat-square&color=gold&label=⭐%20Star%20Repo)](https://github.com/mohammed-m-alhaj/yemen-licenser-plate-recognition-system)
-[![YOLOv8](https://img.shields.io/badge/YOLOv8-Deep%20Learning-00FFFF?style=flat-square)](https://github.com/mohammed-m-alhaj/yemen-licenser-plate-recognition-system)
-[![EasyOCR](https://img.shields.io/badge/EasyOCR-Arabic%20%2B%20English-orange?style=flat-square)](https://github.com/mohammed-m-alhaj/yemen-licenser-plate-recognition-system)
-[![Django REST](https://img.shields.io/badge/Django-REST%20Framework-092E20?style=flat-square&logo=django&logoColor=white)](https://github.com/mohammed-m-alhaj/yemen-licenser-plate-recognition-system)
-[![React](https://img.shields.io/badge/React-Vite%20UI-61DAFB?style=flat-square&logo=react&logoColor=black)](https://github.com/mohammed-m-alhaj/yemen-licenser-plate-recognition-system)
-
-* **The Problem**: Yemeni plates feature heterogeneous typography, dual languages, 5 vehicle classifications, and adverse environmental conditions (dust, harsh glare).
-* **The Pipeline**: Multi-stage cascaded inference:
-  1. **Vehicle Localization**: YOLOv8 detects vehicle bounds.
-  2. **Plate Segmentation**: Sub-model crops and deskews the plate region.
-  3. **Multilingual OCR**: Custom fine-tuned EasyOCR pipeline extracts numerals and governorate text with character-level confidence scores.
-* **Production API**: Containerized Django REST API with real-time video stream support and a React Vite diagnostic dashboard.
+<p align="center">
+  <a href="https://github.com/mohammed-m-alhaj/ai-multi-search-agent">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mohammed-m-alhaj&repo=ai-multi-search-agent&theme=tokyonight" />
+  </a>
+</p>
 
 ---
 
-### 4. [MindRouter Agent — Multi-Agent Intent Routing System](https://github.com/mohammed-m-alhaj/mindRouter-agent)
-> **Autonomous multi-agent conversational architecture routing queries dynamically between emotional and logical personas with stateful LangGraph memory.**
+# 🧠 Skills & Tech Stack
 
-[![GitHub Stars](https://img.shields.io/github/stars/mohammed-m-alhaj/mindRouter-agent?style=flat-square&color=gold&label=⭐%20Star%20Repo)](https://github.com/mohammed-m-alhaj/mindRouter-agent)
-[![LangGraph](https://img.shields.io/badge/LangGraph-StateGraph-blueviolet?style=flat-square)](https://github.com/mohammed-m-alhaj/mindRouter-agent)
-[![LangChain](https://img.shields.io/badge/LangChain-Orchestration-1C3C3C?style=flat-square)](https://github.com/mohammed-m-alhaj/mindRouter-agent)
-[![Streamlit](https://img.shields.io/badge/Streamlit-Interactive%20UI-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://github.com/mohammed-m-alhaj/mindRouter-agent)
-
-```mermaid
-flowchart LR
-    User([User Prompt]) --> Router{Intent Classifier}
-    Router -->|Empathetic Need| Therapist[Therapist Node]
-    Router -->|Technical / Direct| Analyst[Logical Node]
-    Therapist --> Memory[(Stateful Checkpointer)]
-    Analyst --> Memory
-    Memory --> Stream([Live Response Stream])
-```
+<!-- ================= Animated Skills ================= -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2000&pause=1000&color=00F7FF&center=true&vCenter=true&width=800&lines=LLMs+%7C+Multi-Agent+Systems+%7C+RAG;LangGraph+%7C+LangChain+%7C+OpenAI;PyTorch+%7C+YOLOv8+%7C+Computer+Vision;FastAPI+%7C+Docker+%7C+PostgreSQL;Apache+Spark+%7C+PySpark+%7C+MongoDB" />
+</p>
 
 ---
 
-## 🛠️ Technical Arsenal & Architecture
+## 🤖 AI & Machine Learning
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv" />
+</p>
 
-| Domain | Core Frameworks & Technologies |
-|:---|:---|
-| **AI, LLMs & Agents** | **LangGraph**, **LangChain**, Advanced RAG (Hybrid Search, BM25 + RRF), Prompt Engineering, Hugging Face Transformers, Ollama, Vector DBs (**Qdrant**, **Milvus**) |
-| **Deep Learning & Vision** | **PyTorch (CUDA Accelerated)**, **YOLOv8**, OpenCV, EasyOCR, Scikit-learn, NLP (SpaCy, NLTK) |
-| **Backend & Cloud Architecture** | **FastAPI (AsyncIO)**, **Pydantic v2**, Django REST Framework, **Docker**, PostgreSQL 15, MongoDB 8, Redis, WebSockets |
-| **Data Engineering & Big Data** | **Apache Spark**, **PySpark**, Idempotent ETL Pipelines, Automated Schema Validation, Data Quality Gates |
-| **Client & Mobile** | **Flutter (Dart, Offline-First Architecture)**, React.js, Streamlit, Material 3 RTL |
-
-<br/>
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,docker,postgres,mongodb,flutter,react,git,linux" alt="Skills Matrix" />
-</div>
+![LLMs](https://img.shields.io/badge/LLMs-black?style=for-the-badge)
+![RAG](https://img.shields.io/badge/RAG-blueviolet?style=for-the-badge)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-blue?style=for-the-badge)
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-purple?style=for-the-badge)
+![Computer Vision](https://img.shields.io/badge/Computer%20Vision-orange?style=for-the-badge)
+![OCR](https://img.shields.io/badge/OCR-red?style=for-the-badge)
+![NLP](https://img.shields.io/badge/NLP-green?style=for-the-badge)
 
 ---
 
-## 💼 What I Bring to Engineering Teams
-
-1. **System-Level Mindset**: I don't build isolated Jupyter notebooks. I write tested, containerized, defensive production code with Pydantic schemas and CI/CD pipelines.
-2. **Defensive Engineering**: Every pipeline I build handles dirty real-world data, network drops, and API limits through idempotency, caching, and graceful offline degradation.
-3. **Hardware Fluency**: Capable of benchmarking, quantizing, and running models on local GPU hardware (**NVIDIA RTX 5070 Ti, 12GB VRAM, CUDA 13.4**), drastically cutting cloud inference costs.
-4. **End-to-End Execution**: From data preprocessing and model fine-tuning to building the REST API and the mobile/web frontend.
+## 🧠 LLM Systems & AI Engineering
+![LangGraph](https://img.shields.io/badge/LangGraph-purple?style=for-the-badge)
+![LangChain](https://img.shields.io/badge/LangChain-blue?style=for-the-badge)
+![AI Agents](https://img.shields.io/badge/AI%20Agents-black?style=for-the-badge)
+![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-orange?style=for-the-badge)
+![Vector DBs](https://img.shields.io/badge/Vector%20DBs%20(Qdrant%20%2F%20Milvus)-blue?style=for-the-badge)
 
 ---
 
-## 📬 Direct Contact
+## 💻 Programming Languages
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,dart,javascript,sql" />
+</p>
 
-I am actively open to **Remote AI Engineering roles**, **AI System Architecture consulting**, and **innovative product collaborations**.
+---
 
-- 📧 **Direct Email**: [ai.mohammed.alhaj@gmail.com](mailto:ai.mohammed.alhaj@gmail.com)
-- 💼 **LinkedIn Profile**: [linkedin.com/in/mohammed-al-haj](https://linkedin.com/in/mohammed-mohammed-al-haj-341ab7369)
-- 🐙 **GitHub**: [@mohammed-m-alhaj](https://github.com/mohammed-m-alhaj)
-- 📍 **Location**: Sana'a, Yemen *(Equipped for high-bandwidth remote work worldwide)*
+## ⚙️ Backend, Systems & Mobile
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=fastapi,django,flutter" />
+</p>
 
-<br/>
+![FastAPI](https://img.shields.io/badge/FastAPI%20(Async)-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![REST API](https://img.shields.io/badge/REST-API-green?style=for-the-badge)
+![Offline First](https://img.shields.io/badge/Offline--First%20Architecture-blue?style=for-the-badge)
+![System Design](https://img.shields.io/badge/System%20Design-black?style=for-the-badge)
+![Authentication](https://img.shields.io/badge/JWT%20%2F%20Auth-orange?style=for-the-badge)
 
-<div align="center">
-  <sub>⭐ If you find any of my open-source systems useful, please consider starring the repository!</sub>
-</div>
+---
+
+## 🗄️ Databases & Storage
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,sqlite,redis" />
+</p>
+
+---
+
+## 📊 Big Data & Data Engineering
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=spark" />
+</p>
+
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-red?style=for-the-badge&logo=apachespark&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-yellow?style=for-the-badge)
+![ETL Pipelines](https://img.shields.io/badge/ETL%20Pipelines-blue?style=for-the-badge)
+![Pandas](https://img.shields.io/badge/Pandas-blue?style=for-the-badge)
+![NumPy](https://img.shields.io/badge/NumPy-green?style=for-the-badge)
+
+---
+
+## 🛠️ DevOps & Deployment
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=docker,git,github,linux" />
+</p>
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-green?style=for-the-badge)
+![Linux](https://img.shields.io/badge/Linux-black?style=for-the-badge&logo=linux&logoColor=white)
+
+---
+
+## 📊 GitHub Stats & Consistency
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mohammed-m-alhaj&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohammed-m-alhaj&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mohammed-m-alhaj&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mohammed-m-alhaj&theme=tokyo-night&hide_border=true" />
+</p>
+
+---
+
+## 📬 Let's Connect & Build
+
+- 💼 Open to: **AI Engineer Roles (Remote)**, **LLM / Agent Consulting**, and **High-Impact Collaborations**.
+- 📧 Email: **[ai.mohammed.alhaj@gmail.com](mailto:ai.mohammed.alhaj@gmail.com)**
+- 🌐 LinkedIn: **[Mohammed Al-Haj](https://linkedin.com/in/mohammed-mohammed-al-haj-341ab7369)**
+- 🐙 GitHub: **[@mohammed-m-alhaj](https://github.com/mohammed-m-alhaj)**
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00F7FF&height=120&section=footer" />
+</p>
