@@ -1,1 +1,179 @@
-PHAgYWxpZ249ImNlbnRlciI+CiAgPGltZyBzcmM9Imh0dHBzOi8vcmVhZG1lLXR5cGluZy1zdmcuZGVtb2xhYi5jb20/Zm9udD1GaXJhK0NvZGUmc2l6ZT0yOCZkdXJhdGlvbj0yNTAwJnBhdXNlPTgwMCZjb2xvcj0wMEY3RkYmY2VudGVyPXRydWUmdkNlbnRlcj10cnVlJndpZHRoPTk1MCZsaW5lcz1Nb2hhbW1lZCtBbC1IYWorJTdDK1NlbmlvcitBSSslMjYrTUwrU3lzdGVtcytFbmdpbmVlcjtFbnRlcnByaXNlK1JBRyslN0MrQXV0b25vbW91cytBZ2VudHMrJTdDK1JlYWwtVGltZStWb2ljZStBSTtDb21wdXRlcitWaXNpb24rJTI2K0Rpc3RyaWJ1dGVkK0RhdGErUGlwZWxpbmVzO0J1aWxkaW5nK1Byb2R1Y3Rpb24tUmVhZHkrQUkrQXJjaGl0ZWN0dXJlcyIgLz4KPC9wPgoKPHAgYWxpZ249ImNlbnRlciI+CiAgPGEgaHJlZj0ibWFpbHRvOmFpLm1vaGFtbWVkLmFsaGFqQGdtYWlsLmNvbSI+PGltZyBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvRW1haWwtYWkubW9oYW1tZWQuYWxoYWpAZ21haWwuY29tLTAwRjdGRj9zdHlsZT1mb3ItdGhlLWJhZGdlJmxvZ289Z21haWwmbG9nb0NvbG9yPWJsYWNrIiAvPjwvYT4KICA8YSBocmVmPSJodHRwczovL2xpbmtlZGluLmNvbS9pbi9tb2hhbW1lZC1tb2hhbW1lZC1hbC1oYWotMzQxYWI3MzY5Ij48aW1nIHNyYz0iaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9MaW5rZWRJbi1Nb2hhbW1lZF9BbC0tSGFqLTAwNzdCNT9zdHlsZT1mb3ItdGhlLWJhZGdlJmxvZ289bGlua2VkaW4mbG9nb0NvbG9yPXdoaXRlIiAvPjwvYT4KICA8YSBocmVmPSJodHRwczovL3guY29tL21vZF9hbGhhaiI+PGltZyBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvWC1AbW9kX19hbGhhai0xMjEyMTI/c3R5bGU9Zm9yLXRoZS1iYWRnZSZsb2dvPXgmbG9nb0NvbG9yPXdoaXRlIiAvPjwvYT4KICA8aW1nIHNyYz0iaHR0cHM6Ly9rb21hcmV2LmNvbS9naHB2Yy8/dXNlcm5hbWU9bW9oYW1tZWQtbS1hbGhhaiZjb2xvcj0wMEY3RkYmc3R5bGU9Zm9yLXRoZS1iYWRnZSZsYWJlbD1QUk9GSUxFK1ZJRVdTIiAvPgo8L3A+CgotLS0KCiMjIPCfk4wgRXhlY3V0aXZlIFN1bW1hcnkKCkkgYW0gYSAqKlNlbmlvciBBSSAmIE1hY2hpbmUgTGVhcm5pbmcgU3lzdGVtcyBFbmdpbmVlcioqIHNwZWNpYWxpemluZyBpbiBhcmNoaXRlY3RpbmcgYW5kIGRlcGxveWluZyBlbmQtdG8tZW5kLCBwcm9kdWN0aW9uLWdyYWRlIGludGVsbGlnZW5jZSBpbmZyYXN0cnVjdHVyZS4gCgpNeSBlbmdpbmVlcmluZyBjb3JlIGNlbnRlcnMgb246Ci0gKipFbnRlcnByaXNlIFJldHJpZXZhbC1BdWdtZW50ZWQgR2VuZXJhdGlvbiAoUkFHKSoqICYgbG9jYWxpemVkLCB6ZXJvLWNsb3VkIGluZmVyZW5jZSBwbGF0Zm9ybXMuCi0gKipBdXRvbm9tb3VzIE11bHRpLUFnZW50IFN5c3RlbXMgJiBSZWFsLVRpbWUgVm9pY2UgQUkqKiBvcGVyYXRpbmcgb3ZlciBsb3ctbGF0ZW5jeSBzdHJlYW1pbmcgcHJvdG9jb2xzLgotICoqUHJvZHVjdGlvbiBDb21wdXRlciBWaXNpb24gJiBEZWVwIExlYXJuaW5nIFBpcGVsaW5lcyoqIHNvbHZpbmcgY29tcGxleCByZWdpb25hbCBjbGFzc2lmaWNhdGlvbiBjaGFsbGVuZ2VzLgotICoqSGlnaC1UaHJvdWdocHV0IERpc3RyaWJ1dGVkIERhdGEgU3lzdGVtcyoqIHdpdGggcmlnb3JvdXMgZm9ybWFsIHRlc3RpbmcsIGlkZW1wb3RlbmN5LCBhbmQgZGF0YSB2YWxpZGF0aW9uIGd1YXJhbnRlZXMuCgpJIHByaW9yaXRpemUgKipyb2J1c3Qgc29mdHdhcmUgZW5naW5lZXJpbmcgcHJpbmNpcGxlcyAoVERELCBDSS9DRCwgbW9kdWxhciBkZXNpZ24pKiogb3ZlciBmcmFnaWxlIHJlc2VhcmNoIGRlbW9zLCBlbnN1cmluZyBBSSBhcHBsaWNhdGlvbnMgcmVtYWluIGRldGVybWluaXN0aWMsIG1haW50YWluYWJsZSwgYW5kIGNvc3QtZWZmZWN0aXZlIGF0IHNjYWxlLgoKLS0tCgojIyDwn5qAIEZsYWdzaGlwIEVuZ2luZWVyaW5nIFByb2plY3RzCgojIyMgMS4g8J+PoiBbTG9jYWwgUkFHIFdvcmtzdGF0aW9uXShodHRwczovL2dpdGh1Yi5jb20vbW9oYW1tZWQtbS1hbGhhai9sb2NhbC1yYWctd29ya3N0YXRpb24pCj4gKipFbnRlcnByaXNlLUdyYWRlIFByaXZhdGUgUkFHICYgU2VtYW50aWMgUmV0cmlldmFsIFBsYXRmb3JtKiogIAo+ICpOZXh0LmpzIDE1IOKAoiBGYXN0QVBJIOKAoiBRZHJhbnQgVmVjdG9yIERCIOKAoiBQb3N0Z3JlU1FMIOKAoiBMYW5nR3JhcGgg4oCiIExvY2FsIExMTXMgKExNIFN0dWRpby9PbGxhbWEpIOKAoiBHb29nbGUgR2VtaW5pIOKAoiBEb2NrZXIqCgotIEVuZ2luZWVyZWQgYSB6ZXJvLWNsb3VkLWVncmVzcyBlbnRlcnByaXNlIGRvY3VtZW50IGluZ2VzdGlvbiBhbmQgY29udGV4dHVhbCByZWFzb25pbmcgcGxhdGZvcm0uCi0gSW1wbGVtZW50ZWQgaGlnaC1hY2N1cmFjeSBzZW1hbnRpYyBzZWFyY2ggd2l0aCAqKlFkcmFudCBWZWN0b3IgREIqKiBhbmQgaHlicmlkIGluZGV4aW5nIGZvciBjb21wbGV4IHRlY2huaWNhbCBkb2N1bWVudGF0aW9uLgotIEludGVncmF0ZWQgZHVhbC1tb2RlIGluZmVyZW5jZTogY29tcGxldGUgb2ZmbGluZSBhaXItZ2FwcGVkIGV4ZWN1dGlvbiB2aWEgbG9jYWwgTExNcyBhbG9uZ3NpZGUgR29vZ2xlIEdlbWluaSAxLjUgUHJvLgotIE9yY2hlc3RyYXRlZCBxdWVyeSBkZWNvbXBvc2l0aW9uIGFuZCBpdGVyYXRpdmUgbXVsdGktc3RlcCByZWFzb25pbmcgdXNpbmcgKipMYW5nR3JhcGgqKiBzdGF0ZWZ1bCB3b3JrZmxvd3MuCgo8cCBhbGlnbj0iY2VudGVyIj4KICA8YSBocmVmPSJodHRwczovL2dpdGh1Yi5jb20vbW9oYW1tZWQtbS1hbGhhai9sb2NhbC1yYWctd29ya3N0YXRpb24iPgogICAgPGltZyBzcmM9Imh0dHBzOi8vZ2l0aHViLXJlYWRtZS1zdGF0cy1laWdodC10aGV0YS52ZXJjZWwuYXBwL2FwaS9waW4vP3VzZXJuYW1lPW1vaGFtbWVkLW0tYWxoYWomcmVwbz1sb2NhbC1yYWctd29ya3N0YXRpb24mdGhlbWU9dG9reW9uaWdodCZoaWRlX2JvcmRlcj10cnVlIiAvPgogIDwvYT4KPC9wPgoKLS0tCgojIyMgMi4g8J+Ome+4jyBbVm9pY2UgQWdlbnQg4oCUIFBoYXJtYWN5IEFzc2lzdGFudF0oaHR0cHM6Ly9naXRodWIuY29tL21vaGFtbWVkLW0tYWxoYWovdm9pY2UtYWdlbnQtUGhhcm1hY3ktQXNzaXN0YW50KQo+ICoqUmVhbC1UaW1lIFRlbGVwaG9ueSBDb252ZXJzYXRpb25hbCBBSSBBc3Npc3RhbnQqKiAgCj4gKlR3aWxpbyBNZWRpYSBTdHJlYW1zIOKAoiBEZWVwZ3JhbSBWb2ljZSBBZ2VudCBBUEkg4oCiIFdlYlNvY2tldHMsIOKAoiBQeXRob24g4oCiIEFzeW5jSU8g4oCiIEZ1bmN0aW9uIENhbGxpbmcqCgotIEFyY2hpdGVjdGVkIGEgYmlkaXJlY3Rpb25hbCBmdWxsLWR1cGxleCBjb252ZXJzYXRpb25hbCB2b2ljZSBwaXBlbGluZSBicmlkZ2luZyByYXcgKipUd2lsaW8gTWVkaWEgU3RyZWFtcyoqIHdpdGggKipEZWVwZ3JhbSBWb2ljZSBBZ2VudCBBUEkqKiBvdmVyIFdlYlNvY2tldHMuCi0gQWNoaWV2ZWQgc3ViLXNlY29uZCB2b2ljZS10by12b2ljZSByZXNwb25zZSBsYXRlbmN5IGZvciBtZWRpY2FsIHRyaWFnZSwgbWVkaWNpbmUgYXZhaWxhYmlsaXR5IGxvb2t1cHMsIGFuZCBhdXRvbWF0ZWQgb3JkZXIgcGxhY2VtZW50cy4KLSBJbXBsZW1lbnRlZCBkZXRlcm1pbmlzdGljIGxvY2FsIHRvb2wvZnVuY3Rpb24gY2FsbGluZyBoYW5kbGVycyB3aXRoIHJlYWwtdGltZSBwYXlsb2FkIHN5bmNocm9uaXphdGlvbiBhbmQgY29udmVyc2F0aW9uIHN0YXRlIG1hbmFnZW1lbnQuCgo8cCBhbGlnbj0iY2VudGVyIj4KICA8YSBocmVmPSJodHRwczovL2dpdGh1Yi5jb20vbW9oYW1tZWQtbS1hbGhhai92b2ljZS1hZ2VudC1QaGFybWFjeS1Bc3Npc3RhbnQiPgogICAgPGltZyBzcmM9Imh0dHBzOi8vZ2l0aHViLXJlYWRtZS1zdGF0cy1laWdodC10aGV0YS52ZXJjZWwuYXBwL2FwaS9waW4vP3VzZXJuYW1lPW1vaGFtbWVkLW0tYWxoYWomcmVwbz12b2ljZS1hZ2VudC1QaGFybWFjeS1Bc3Npc3RhbnQmdGhlbWU9dG9reW9uaWdodCZoaWRlX2JvcmRlcj10cnVlIiAvPgogIDwvYT4KPC9wPgoKLS0tCgojIyMgMy4g8J+TsSBbVGFza2Zsb3cg4oCUIEFJLVBvd2VyZWQgT2ZmbGluZS1GaXJzdCBQbGF0Zm9ybV0oaHR0cHM6Ly9naXRodWIuY29tL21vaGFtbWVkLW0tYWxoYWovdGFza2Zsb3cpCj4gKipGdWxsLVN0YWNrIEludGVsbGlnZW50IFByb2R1Y3Rpdml0eSAmIFRhc2sgQXV0b21hdGlvbiBTeXN0ZW0qKiAgCj4gKkZsdXR0ZXIg4oCiIEZhc3RBUEkg4oCiIEdvb2dsZSBHZW1pbmkgQUkg4oCiIFBvc3RncmVTUUwg4oCiIFJlZGlzIOKAoiBEb2NrZXIg4oCiIEFyYWJpYyBSVEwgU3VwcG9ydCoKCi0gRW5naW5lZXJlZCBhIGNyb3NzLXBsYXRmb3JtIG1vYmlsZSBwbGF0Zm9ybSBvcGVyYXRpbmcgdW5kZXIgc3RyaWN0ICoqT2ZmbGluZS1GaXJzdCoqIGNvbnN0cmFpbnRzIHdpdGggY29uZmxpY3QtZnJlZSBiYWNrZ3JvdW5kIGRhdGEgc3luY2hyb25pemF0aW9uLgotIEVtYmVkZGVkIEdlbWluaSBBSSB0byBwcm92aWRlIGF1dG9ub21vdXMgdGFzayBzY2hlZHVsaW5nLCBlZmZvcnQgZXN0aW1hdGlvbiwgYW5kIGludGVsbGlnZW50IHByaW9yaXR5IGNsdXN0ZXJpbmcuCi0gRGV2ZWxvcGVkICoqMjQgZG9jdW1lbnRlZCBSRVNUIGVuZHBvaW50cyoqIHByb3RlY3RlZCBieSBKV1QgYXV0aGVudGljYXRpb24gYW5kIHJvbGUtYmFzZWQgYWNjZXNzIGNvbnRyb2wgKFJCQUMpLgotIEVuZm9yY2VkIGNvbXBsZXRlIHJlbGlhYmlsaXR5IHdpdGggYXV0b21hdGVkIFB5VGVzdCByZWdyZXNzaW9uIHN1aXRlcywgQXJhYmljIFJUTCBVWCwgYW5kIG9uZS1jb21tYW5kIERvY2tlciBjb250YWluZXJpemF0aW9uLgoKPHAgYWxpZ249ImNlbnRlciI+CiAgPGEgaHJlZj0iaHR0cHM6Ly9naXRodWIuY29tL21vaGFtbWVkLW0tYWxoYWovdGFza2Zsb3ciPgogICAgPGltZyBzcmM9Imh0dHBzOi8vZ2l0aHViLXJlYWRtZS1zdGF0cy1laWdodC10aGV0YS52ZXJjZWwuYXBwL2FwaS9waW4vP3VzZXJuYW1lPW1vaGFtbWVkLW0tYWxoYWomcmVwbz10YXNrZmxvdyZ0aGVtZT10b2t5b25pZ2h0JmhpZGVfYm9yZGVyPXRydWUiIC8+CiAgPC9hPgo8L3A+CgotLS0KCiMjIyA0LiDwn5qYIFtZZW1lbiBMaWNlbnNlIFBsYXRlIFJlY29nbml0aW9uIFN5c3RlbSAoQUxQUildKGh0dHBzOi8vZ2l0aHViLmNvbS9tb2hhbW1lZC1tLWFsaGFqL3llbWVuLWxpY2Vuc2VyLXBsYXRlLXJlY29nbml0aW9uLXN5c3RlbSkKPiAqKkVuZC10by1FbmQgRGVlcCBMZWFybmluZyAmIE9DUiBQaXBlbGluZSBmb3IgQ2hhbGxlbmdpbmcgUmVhbC1Xb3JsZCBFbnZpcm9ubWVudHMqKiAgCj4gKllPTE92OCDigKIgRWFzeU9DUiDigKIgRGphbmdvIFJFU1QgRnJhbWV3b3JrIOKAoiBSZWFjdCDigKIgRG9ja2VyIOKAoiBPcGVuQ1YqCgotIERlc2lnbmVkIGFuZCB0cmFpbmVkIGEgbXVsdGktc3RhZ2UgZGVlcCBsZWFybmluZyBwaXBlbGluZTogdmVoaWNsZSBkZXRlY3Rpb24gJnJhcnI7IGxpY2Vuc2UgcGxhdGUgbG9jYWxpemF0aW9uICZyYXJyOyBjaGFyYWN0ZXIgc2VnbWVudGF0aW9uICZyYXJyOyBPQ1IgdGV4dCBleHRyYWN0aW9uLgotIEN1c3RvbWl6ZWQgZGV0ZWN0aW9uIG1vZGVscyB0byBhY2N1cmF0ZWx5IGNsYXNzaWZ5IHBsYXRlcyBhY3Jvc3MgYWxsICoqMjEgWWVtZW5pIGdvdmVybm9yYXRlcyoqIHVuZGVyIHZhcmllZCBsaWdodGluZyBhbmQgYW5nbGVzLgotIERlbGl2ZXJlZCBhbiBpbnRlcmFjdGl2ZSBSZWFjdCBtb25pdG9yaW5nIGNvY2twaXQgYmFja2VkIGJ5IGEgY29udGFpbmVyaXplZCBEamFuZ28gUkVTVCBtaWNyb3NlcnZpY2UgZm9yIHJlYWwtdGltZSB2aWRlbyBzdHJlYW0gaW5mZXJlbmNlLgoKPHAgYWxpZ249ImNlbnRlciI+CiAgPGEgaHJlZj0iaHR0cHM6Ly9naXRodWIuY29tL21vaGFtbWVkLW0tYWxoYWoveWVtZW4tbGljZW5zZXItcGxhdGUtcmVjb2duaXRpb24tc3lzdGVtIj4KICAgIDxpbWcgc3JjPSJodHRwczovL2dpdGh1Yi1yZWFkbWUtc3RhdHMtZWlnaHQtdGhldGEudmVyY2VsLmFwcC9hcGkvcGluLz91c2VybmFtZT1tb2hhbW1lZC1tLWFsaGFqJnJlcG89eWVtZW4tbGljZW5zZXItcGxhdGUtcmVjb2duaXRpb24tc3lzdGVtJnRoZW1lPXRva3lvbmlnaHQmaGlkZV9ib3JkZXI9dHJ1ZSIgLz4KICA8L2E+CjwvcD4KCi0tLQoKIyMjIDUuIPCfp6AgW21pbmRSb3V0ZXIg4oCUIE11bHRpLUFnZW50IEludGVudCBSb3V0aW5nIFN5c3RlbV0oaHR0cHM6Ly9naXRodWIuY29tL21vaGFtbWVkLW0tYWxoYWovbWluZFJvdXRlci1hZ2VudCkKPiAqKlN0YXRlZnVsIEFnZW50aWMgR3JhcGggQXJjaGl0ZWN0dXJlIGZvciBJbnRlbnQtRHJpdmVuIFdvcmtmbG93cyoqICAKPiAqTGFuZ0dyYXBoIOKAoiBMYW5nQ2hhaW4g4oCiIE9wZW5BSSBHUFQtNCDigKIgU3RyZWFtbGl0IOKAoiBQeXRob24gQXN5bmMqCgotIERlc2lnbmVkIGEgY3ljbGljYWwgZGlyZWN0ZWQgZ3JhcGggaW4gKipMYW5nR3JhcGgqKiByb3V0aW5nIGNvbXBsZXggaW5jb21pbmcgcXVlcmllcyB0byBkZWRpY2F0ZWQgYW5hbHl0aWNhbCBvciBlbXBhdGhldGljIHBlcnNvbmEgYWdlbnRzLgotIEludGVncmF0ZWQgZHluYW1pYyBjaGVja3BvaW50ZWQgc2hvcnQvbG9uZy10ZXJtIG1lbW9yeSB0byBtYWludGFpbiBjb250ZXh0IGNvbnRpbnVpdHkgYWNyb3NzIG11bHRpLXR1cm4gdXNlciBpbnRlcmFjdGlvbnMuCi0gQnVpbHQgYSB2aXN1YWwgaW5zcGVjdGlvbiBVSSBpbiBTdHJlYW1saXQgZXhwb3NpbmcgaW50ZXJuYWwgYWdlbnQgc3RhdGVzLCByb3V0aW5nIGRlY2lzaW9ucywgYW5kIGNvbmZpZGVuY2Ugc2NvcmVzIGluIHJlYWwtdGltZS4KCjxwIGFsaWduPSJjZW50ZXIiPgogIDxhIGhyZWY9Imh0dHBzOi8vZ2l0aHViLmNvbS9tb2hhbW1lZC1tLWFsaGFqL21pbmRSb3V0ZXItYWdlbnQiPgogICAgPGltZyBzcmM9Imh0dHBzOi8vZ2l0aHViLXJlYWRtZS1zdGF0cy1laWdodC10aGV0YS52ZXJjZWwuYXBwL2FwaS9waW4vP3VzZXJuYW1lPW1vaGFtbWVkLW0tYWxoYWomcmVwbz1taW5kUm91dGVyLWFnZW50JnRoZW1lPXRva3lvbmlnaHQmaGlkZV9ib3JkZXI9dHJ1ZSIgLz4KICA8L2E+CjwvcD4KCi0tLQoKIyMjIDYuIPCfk6YgW0RhdGEgTWlncmF0aW9uICYgUXVhbGl0eSBQaXBlbGluZV0oaHR0cHM6Ly9naXRodWIuY29tL21vaGFtbWVkLW0tYWxoYWovZGF0YS1taWdyYXRpb24tcGlwZWxpbmUpCj4gKipGYXVsdC1Ub2xlcmFudCBEaXN0cmlidXRlZCBFVEwgJiBTY2hlbWEgRW5mb3JjZW1lbnQgRW5naW5lKiogIAo+ICpQeXRob24g4oCiIEFwYWNoZSBQeVNwYXJrIOKAoiBNb25nb0RCIOKAoiBQeVRlc3QgKDE1IFRlc3RzLCAxMDAlIFBhc3MpKgoKLSBCdWlsdCBhIGRpc3RyaWJ1dGVkIEVUTCBwaXBlbGluZSBlbmZvcmNpbmcgOSByaWdvcm91cyBjbGVhbmluZyBhbmQgdmFsaWRhdGlvbiBydWxlcyBhY3Jvc3MgaGV0ZXJvZ2VuZW91cyBkYXRhIHNvdXJjZXMuCi0gR3VhcmFudGVlZCAqKlNIQS0yNTYgaWRlbXBvdGVuY3kqKiBwcmV2ZW50aW5nIGR1cGxpY2F0ZSBpbmdlc3Rpb24gdXBvbiByZS1ydW5zIGFuZCBzeXN0ZW0gaW50ZXJydXB0aW9ucy4KLSBWYWxpZGF0ZWQgd2l0aCAqKjE1IGF1dG9tYXRlZCBQeVRlc3Qgc3VpdGVzICgxMDAlIHBhc3NpbmcpKiogd2l0aCBiZW5jaG1hcmsgbG9nZ2luZyBhbmQgZnVsbCB0ZWxlbWV0cnkgb2JzZXJ2YWJpbGl0eS4KCjxwIGFsaWduPSJjZW50ZXIiPgogIDxhIGhyZWY9Imh0dHBzOi8vZ2l0aHViLmNvbS9tb2hhbW1lZC1tLWFsaGFqL2RhdGEtbWlncmF0aW9uLXBpcGVsaW5lIj4KICAgIDxpbWcgc3JjPSJodHRwczovL2dpdGh1Yi1yZWFkbWUtc3RhdHMtZWlnaHQtdGhldGEudmVyY2VsLmFwcC9hcGkvcGluLz91c2VybmFtZT1tb2hhbW1lZC1tLWFsaGFqJnJlcG89ZGF0YS1taWdyYXRpb24tcGlwZWxpbmUmdGhlbWU9dG9reW9uaWdodCZoaWRlX2JvcmRlcj10cnVlIiAvPgogIDwvYT4KPC9wPgoKLS0tCgojIyDwn5ug77iPIFRlY2huaWNhbCBDb21wZXRlbmNpZXMgJiBTdGFjawoKPHAgYWxpZ249ImNlbnRlciI+CiAgPGltZyBzcmM9Imh0dHBzOi8vc2tpbGxpY29ucy5kZXYvaWNvbnM/aT1weXRob24scHl0b3JjaCx0ZW5zb3JmbG93LG9wZW5jdixmYXN0YXBpLGRqYW5nbyxmbHV0dGVyLHJlYWN0LG5leHRqcyxwb3N0Z3Jlcyxtb25nb2RiLHJlZGlzLGRvY2tlcixnaXQsbGludXgmcGVyUm93PTE1IiAvPgo8L3A+Cgp8IERvbWFpbiB8IFRlY2hub2xvZ2llcyAmIEZyYW1ld29ya3MgfAp8IDotLS0gfCA6LS0tIHwKfCAqKkxMTXMsIFJBRyAmIEFnZW50cyoqIHwgTGFuZ0dyYXBoLCBMYW5nQ2hhaW4sIFFkcmFudCwgQ2hyb21hREIsIFByb21wdCBFbmdpbmVlcmluZywgRXZhbHVhdGlvbiwgTG9jYWwgTExNcyAoT2xsYW1hIC8gTE0gU3R1ZGlvKSB8CnwgKipDb21wdXRlciBWaXNpb24gJiBNTCoqIHwgWU9MT3Y4LCBQeVRvcmNoLCBUZW5zb3JGbG93LCBPcGVuQ1YsIEVhc3lPQ1IsIEh1Z2dpbmdGYWNlIFRyYW5zZm9ybWVycywgU2Npa2l0LWxlYXJuIHwKfCAqKlJlYWwtVGltZSAmIFZvaWNlIEFJKiogfCBUd2lsaW8gTWVkaWEgU3RyZWFtcywgRGVlcGdyYW0gVm9pY2UgQWdlbnQgQVBJLCBXZWJTb2NrZXRzLCBBc3luY0lPIHwKfCAqKkJhY2tlbmQgJiBBUElzKiogfCBGYXN0QVBJLCBEamFuZ28gUkVTVCBGcmFtZXdvcmssIFdlYlNvY2tldHMsIFJFU1RmdWwgQVBJIERlc2lnbiwgSldUL09BdXRoMiB8CnwgKipEaXN0cmlidXRlZCBEYXRhICYgREJzKiogfCBBcGFjaGUgUHlTcGFyaywgUG9zdGdyZVNRTCwgTW9uZ29EQiwgUmVkaXMsIFNRTGl0ZSAoV0FMIE1vZGUpLCBFVEwgUGlwZWxpbmVzIHwKfCAqKkZyb250ZW5kICYgTW9iaWxlKiogfCBOZXh0LmpzIChBcHAgUm91dGVyKSwgUmVhY3QgMTksIFR5cGVTY3JpcHQsIEZsdXR0ZXIgKE9mZmxpbmUtRmlyc3QpLCBUYWlsd2luZCBDU1MgfAp8ICoqRGV2T3BzICYgVmVyaWZpY2F0aW9uKiogfCBEb2NrZXIsIERvY2tlciBDb21wb3NlLCBMaW51eC9CYXNoLCBQeVRlc3QgKFRERCksIENJL0NELCBHaXQvR2l0SHViIHwKCi0tLQoKIyMg8J+TiiBFbmdpbmVlcmluZyBBbmFseXRpY3MgJiBBY3Rpdml0eQoKPHAgYWxpZ249ImNlbnRlciI+CiAgPGltZyBzcmM9Imh0dHBzOi8vZ2l0aHViLXJlYWRtZS1zdGF0cy1laWdodC10aGV0YS52ZXJjZWwuYXBwL2FwaT91c2VybmFtZT1tb2hhbW1lZC1tLWFsaGFqJnNob3dfaWNvbnM9dHJ1ZSZ0aGVtZT10b2t5b25pZ2h0JmhpZGVfYm9yZGVyPXRydWUmaW5jbHVkZV9hbGxfY29tbWl0cz10cnVlIiBoZWlnaHQ9IjE3NSIgLz4KICA8aW1nIHNyYz0iaHR0cHM6Ly9naXRodWItcmVhZG1lLXN0YXRzLWVpZ2h0LXRoZXRhLnZlcmNlbC5hcHAvYXBpL3RvcC1sYW5ncy8/dXNlcm5hbWU9bW9oYW1tZWQtbS1hbGhhaiZsYXlvdXQ9Y29tcGFjdCZ0aGVtZT10b2t5b25pZ2h0JmhpZGVfYm9yZGVyPXRydWUiIGhlaWdodD0iMTc1IiAvPgo8L3A+Cgo8cCBhbGlnbj0iY2VudGVyIj4KICA8aW1nIHNyYz0iaHR0cHM6Ly9zdHJlYWstc3RhdHMuZGVtb2xhYi5jb20vP3VzZXJuYW1lPW1vaGFtbWVkLW0tYWxoYWomdGhlbWU9dG9reW9uaWdodCZoaWRlX2JvcmRlcj10cnVlIiBoZWlnaHQ9IjE3NSIgLz4KPC9wPgoKPHAgYWxpZ249ImNlbnRlciI+CiAgPGltZyBzcmM9Imh0dHBzOi8vZ2l0aHViLXByb2ZpbGUtc3VtbWFyeS1jYXJkcy52ZXJjZWwuYXBwL2FwaS9jYXJkcy9wcm9maWxlLWRldGFpbHM/dXNlcm5hbWU9bW9oYW1tZWQtbS1hbGhhaiZ0aGVtZT10b2t5b25pZ2h0IiAvPgogIDxpbWcgc3JjPSJodHRwczovL2dpdGh1Yi1wcm9maWxlLXN1bW1hcnktY2FyZHMudmVyY2VsLmFwcC9hcGkvY2FyZHMvcmVwb3MtcGVyLWxhbmd1YWdlP3VzZXJuYW1lPW1vaGFtbWVkLW0tYWxoYWomdGhlbWU9dG9reW9uaWdodCIgLz4KPC9wPgoKLS0tCgojIyDwn5K8IE9wZW4gdG8gT3Bwb3J0dW5pdGllcwoKSSBhbSBjdXJyZW50bHkgb3BlbiB0byAqKlNlbmlvciBBSSBFbmdpbmVlcioqLCAqKkxMTSAvIEFnZW50IEFyY2hpdGVjdCoqLCBhbmQgKipNYWNoaW5lIExlYXJuaW5nIEVuZ2luZWVyKiogcm9sZXMgKFJlbW90ZSBXb3JsZHdpZGUgLyBSZWxvY2F0aW9uKS4KCklmIHlvdSBhcmUgYnVpbGRpbmcgY29tcGxleCBBSSBwcm9kdWN0cywgcmVzaWxpZW50IGFnZW50aWMgd29ya2Zsb3dzLCBvciByZWFsLXRpbWUgaW50ZWxsaWdlbnQgc3lzdGVtcywgbGV0J3MgY29ubmVjdDoKCnxDaGFubmVsIHwgQ29udGFjdCB8Cnw6LS0tIHwgOi0tLSB8CnxEaXJlY3QgRW1haWwqKiB8IFthaS5tb2hhbW1lZC5hbGhhakBnbWFpbC5jb21dKG1haWx0bzphaS5tb2hhbW1lZC5hbGhhakBnbWFpbC5jb20pIHwKfCAqKkxpbmtlZEluKiogfCBbbGlua2VkaW4uY29tL2luL21vaGFtbWVkLW1vaGFtbWVkLWFsLWhhai0zNDFhYjczNjldKGh0dHBzOi8vbGlua2VkaW4uY29tL2luL21vaGFtbWVkLW1vaGFtbWVkLWFsLWhhai0zNDFhYjczNjkpIHwKfCAqKlggKFR3aXR0ZXIpKiogfCBbQG1vZF9hbGhhal0oaHR0cHM6Ly94LmNvbS9tb2RfYWxoYWopIHwKfCAqKkxvY2F0aW9uKiogfCBTYW5hJ2EsIFllbWVuIChPcGVuIHRvIFJlbW90ZSBXb3JsZHdpZGUpIHwKCjxwIGFsaWduPSJjZW50ZXIiPgogIDxpbWcgc3JjPSJodHRwczovL2NhcHN1bGUtcmVuZGVyLnZlcmNlbC5hcHAvYXBpP3R5cGU9d2F2aW5nJmNvbG9yPTA6RkY2NDM2LDEwMDowMEY3RkYmaGVpZ2h0PTEwMCZzZWN0aW9uPWZvb3RlciIgLz4KPC9wPgo=
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2500&pause=800&color=00F7FF&center=true&vCenter=true&width=950&lines=Mohammed+Al-Haj+%7C+Senior+AI+%26+ML+Systems+Engineer;Enterprise+RAG+%7C+Autonomous+Agents+%7C+Real-Time+Voice+AI;Computer+Vision+%26+Distributed+Data+Pipelines;Building+Production-Ready+AI+Architectures" />
+</p>
+
+<p align="center">
+  <a href="mailto:ai.mohammed.alhaj@gmail.com"><img src="https://img.shields.io/badge/Email-ai.mohammed.alhaj@gmail.com-00F7FF?style=for-the-badge&logo=gmail&logoColor=black" /></a>
+  <a href="https://linkedin.com/in/mohammed-mohammed-al-haj-341ab7369"><img src="https://img.shields.io/badge/LinkedIn-Mohammed_Al--Haj-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://x.com/mod_alhaj"><img src="https://img.shields.io/badge/X-@mod__alhaj-121212?style=for-the-badge&logo=x&logoColor=white" /></a>
+  <img src="https://komarev.com/ghpvc/?username=mohammed-m-alhaj&color=00F7FF&style=for-the-badge&label=PROFILE+VIEWS" />
+</p>
+
+---
+
+## 📌 Executive Summary
+
+I am a **Senior AI & Machine Learning Systems Engineer** specializing in architecting and deploying end-to-end, production-grade intelligence infrastructure. 
+
+My engineering core centers on:
+- **Enterprise Retrieval-Augmented Generation (RAG)** & localized, zero-cloud inference platforms.
+- **Autonomous Multi-Agent Systems & Real-Time Voice AI** operating over low-latency streaming protocols.
+- **Production Computer Vision & Deep Learning Pipelines** solving complex regional classification challenges.
+- **High-Throughput Distributed Data Systems** with rigorous formal testing, idempotency, and data validation guarantees.
+
+I prioritize **robust software engineering principles (TDD, CI/CD, modular design)** over fragile research demos, ensuring AI applications remain deterministic, maintainable, and cost-effective at scale.
+
+---
+
+## 🚀 Flagship Engineering Projects
+
+### 1. 🏢 [Local RAG Workstation](https://github.com/mohammed-m-alhaj/local-rag-workstation)
+> **Enterprise-Grade Private RAG & Semantic Retrieval Platform**  
+> *Next.js 15 • FastAPI • Qdrant Vector DB • PostgreSQL • LangGraph • Local LLMs (LM Studio/Ollama) • Google Gemini • Docker*
+
+- Engineered a zero-cloud-egress enterprise document ingestion and contextual reasoning platform.
+- Implemented high-accuracy semantic search with **Qdrant Vector DB** and hybrid indexing for complex technical documentation.
+- Integrated dual-mode inference: complete offline air-gapped execution via local LLMs alongside Google Gemini 1.5 Pro.
+- Orchestrated query decomposition and iterative multi-step reasoning using **LangGraph** stateful workflows.
+
+<p align="center">
+  <a href="https://github.com/mohammed-m-alhaj/local-rag-workstation">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=mohammed-m-alhaj&repo=local-rag-workstation&theme=tokyonight&hide_border=true" />
+  </a>
+</p>
+
+---
+
+### 2. 🎙️ [Voice Agent — Pharmacy Assistant](https://github.com/mohammed-m-alhaj/voice-agent-Pharmacy-Assistant)
+> **Real-Time Telephony Conversational AI Assistant**  
+> *Twilio Media Streams • Deepgram Voice Agent API • WebSockets • Python • AsyncIO • Function Calling*
+
+- Architected a bidirectional full-duplex conversational voice pipeline bridging raw **Twilio Media Streams** with **Deepgram Voice Agent API** over WebSockets.
+- Achieved sub-second voice-to-voice response latency for medical triage, medicine availability lookups, and automated order placements.
+- Implemented deterministic local tool/function calling handlers with real-time payload synchronization and conversation state management.
+
+<p align="center">
+  <a href="https://github.com/mohammed-m-alhaj/voice-agent-Pharmacy-Assistant">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=mohammed-m-alhaj&repo=voice-agent-Pharmacy-Assistant&theme=tokyonight&hide_border=true" />
+  </a>
+</p>
+
+---
+
+### 3. 📱 [Taskflow — AI-Powered Offline-First Platform](https://github.com/mohammed-m-alhaj/taskflow)
+> **Full-Stack Intelligent Productivity & Task Automation System**  
+> *Flutter • FastAPI • Google Gemini AI • PostgreSQL • Redis • Docker • Arabic RTL Support*
+
+- Engineered a cross-platform mobile platform operating under strict **Offline-First** constraints with conflict-free background data synchronization.
+- Embedded Gemini AI to provide autonomous task scheduling, effort estimation, and intelligent priority clustering.
+- Developed **24 documented REST endpoints** protected by JWT authentication and role-based access control (RBAC).
+- Enforced complete reliability with automated PyTest regression suites, Arabic RTL UX, and one-command Docker containerization.
+
+<p align="center">
+  <a href="https://github.com/mohammed-m-alhaj/taskflow">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=mohammed-m-alhaj&repo=taskflow&theme=tokyonight&hide_border=true" />
+  </a>
+</p>
+
+---
+
+### 4. 🚘 [Yemen License Plate Recognition System (ALPR)](https://github.com/mohammed-m-alhaj/yemen-licenser-plate-recognition-system)
+> **End-to-End Deep Learning & OCR Pipeline for Challenging Real-World Environments**  
+> *YOLOv8 • EasyOCR • Django REST Framework • React • Docker • OpenCV*
+
+- Designed and trained a multi-stage deep learning pipeline: vehicle detection &rarr; license plate localization &rarr; character segmentation &rarr; OCR text extraction.
+- Customized detection models to accurately classify plates across all **21 Yemeni governorates** under varied lighting and angles.
+- Delivered an interactive React monitoring cockpit backed by a containerized Django REST microservice for real-time video stream inference.
+
+<p align="center">
+  <a href="https://github.com/mohammed-m-alhaj/yemen-licenser-plate-recognition-system">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=mohammed-m-alhaj&repo=yemen-licenser-plate-recognition-system&theme=tokyonight&hide_border=true" />
+  </a>
+</p>
+
+---
+
+### 5. 🧠 [mindRouter — Multi-Agent Intent Routing System](https://github.com/mohammed-m-alhaj/mindRouter-agent)
+> **Stateful Agentic Graph Architecture for Intent-Driven Workflows**  
+> *LangGraph • LangChain • OpenAI GPT-4 • Streamlit • Python Async*
+
+- Designed a cyclical directed graph in **LangGraph** routing complex incoming queries to dedicated analytical or empathetic persona agents.
+- Integrated dynamic checkpointed short/long-term memory to maintain context continuity across multi-turn user interactions.
+- Built a visual inspection UI in Streamlit exposing internal agent states, routing decisions, and confidence scores in real time.
+
+<p align="center">
+  <a href="https://github.com/mohammed-m-alhaj/mindRouter-agent">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=mohammed-m-alhaj&repo=mindRouter-agent&theme=tokyonight&hide_border=true" />
+  </a>
+</p>
+
+---
+
+### 6. 📦 [Data Migration & Quality Pipeline](https://github.com/mohammed-m-alhaj/data-migration-pipeline)
+> **Fault-Tolerant Distributed ETL & Schema Enforcement Engine**  
+> *Python • Apache PySpark • MongoDB • PyTest (15 Tests, 100% Pass)*
+
+- Built a distributed ETL pipeline enforcing 9 rigorous cleaning and validation rules across heterogeneous data sources.
+- Guaranteed **SHA-256 idempotency** preventing duplicate ingestion upon re-runs and system interruptions.
+- Validated with **15 automated PyTest suites (100% passing)** with benchmark logging and full telemetry observability.
+
+<p align="center">
+  <a href="https://github.com/mohammed-m-alhaj/data-migration-pipeline">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=mohammed-m-alhaj&repo=data-migration-pipeline&theme=tokyonight&hide_border=true" />
+  </a>
+</p>
+
+---
+
+## 🛠️ Technical Competencies & Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv,fastapi,django,flutter,react,nextjs,postgres,mongodb,redis,docker,git,linux&perRow=15" />
+</p>
+
+| Domain | Technologies & Frameworks |
+| :--- | :--- |
+| **LLMs, RAG & Agents** | LangGraph, LangChain, Qdrant, ChromaDB, Prompt Engineering, Evaluation, Local LLMs (Ollama / LM Studio) |
+| **Computer Vision & ML** | YOLOv8, PyTorch, TensorFlow, OpenCV, EasyOCR, HuggingFace Transformers, Scikit-learn |
+| **Real-Time & Voice AI** | Twilio Media Streams, Deepgram Voice Agent API, WebSockets, AsyncIO |
+| **Backend & APIs** | FastAPI, Django REST Framework, WebSockets, RESTful API Design, JWT/OAuth2 |
+| **Distributed Data & DBs** | Apache PySpark, PostgreSQL, MongoDB, Redis, SQLite (WAL Mode), ETL Pipelines |
+| **Frontend & Mobile** | Next.js (App Router), React 19, TypeScript, Flutter (Offline-First), Tailwind CSS |
+| **DevOps & Verification** | Docker, Docker Compose, Linux/Bash, PyTest (TDD), CI/CD, Git/GitHub |
+
+---
+
+## 📊 Engineering Analytics & Activity
+
+<p align="center">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=mohammed-m-alhaj&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" height="175" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=mohammed-m-alhaj&layout=compact&theme=tokyonight&hide_border=true" height="175" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=mohammed-m-alhaj&theme=tokyonight&hide_border=true" height="175" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mohammed-m-alhaj&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mohammed-m-alhaj&theme=tokyonight" />
+</p>
+
+---
+
+## 💼 Open to Opportunities
+
+I am currently open to **Senior AI Engineer**, **LLM / Agent Architect**, and **Machine Learning Engineer** roles (Remote Worldwide / Relocation).
+
+If you are building complex AI products, resilient agentic workflows, or real-time intelligent systems, let's connect:
+
+| Channel | Contact |
+| :--- | :--- |
+| **Direct Email** | [ai.mohammed.alhaj@gmail.com](mailto:ai.mohammed.alhaj@gmail.com) |
+| **LinkedIn** | [linkedin.com/in/mohammed-mohammed-al-haj-341ab7369](https://linkedin.com/in/mohammed-mohammed-al-haj-341ab7369) |
+| **X (Twitter)** | [@mod_alhaj](https://x.com/mod_alhaj) |
+| **Location** | Sana'a, Yemen (Open to Remote Worldwide) |
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6436,100:00F7FF&height=100&section=footer" />
+</p>
