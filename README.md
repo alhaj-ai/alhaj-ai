@@ -11,7 +11,7 @@
 I focus on building verifiable AI software where autonomous workflows run behind deterministic state guarantees, isolated environments, and automated test suites rather than unguarded prompt loops:
 
 - **Crash Recovery & State Integrity**: Append-only `SHA-256` execution ledgers, worker lease fencing, shadow workspace isolation, and idempotent patch promotion (`Haseen-AI`).
-- **Token & Latency Discipline**: Compiling one-time VLM browser traces into semantic YAML capability graphs executed deterministically at zero LLM cost (`Mutahakkim-AI`), plus rule-based offline fallbacks when model APIs are unavailable (`taskflow`).
+- **Token & Latency Discipline**: Compiling one-time VLM browser traces into semantic YAML capability graphs executed deterministically at zero LLM cost (`Mutahakkim-AI`), paired with dual-path audio synthesis fallback (`Edge TTS` ➔ HTTP TTS) for multimodal voice output (`Mustakshef-AI`).
 - **Tenant Isolation & Grounded Provenance**: Per-user Qdrant collections, overlapping chunk indexing, strict page-level citations (`DocuMind-RAG`), and local `LayoutLMv3` / `XLM-RoBERTa` / `Ollama` execution for sensitive documents (`DocuShield-AI`, `Majles-AI`, `Azal-AI`).
 - **Reproducible Verification**: Live runnable CLI demos, `pytest` suites across core repositories, containerized setups, and automated GitHub Actions CI.
 
@@ -108,14 +108,13 @@ evidence: planner model calls 1 (the plan was kept, not redone); duplicate side 
 
 ---
 
-### 6. [TaskFlow](https://github.com/alhaj-ai/taskflow) — Offline-First Task Ecosystem (Flutter + FastAPI)
-[![CI](https://img.shields.io/github/actions/workflow/status/alhaj-ai/taskflow/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/alhaj-ai/taskflow/actions)
-[![Release](https://img.shields.io/github/v/release/alhaj-ai/taskflow?style=flat-square&color=0F766E)](https://github.com/alhaj-ai/taskflow/releases)
+### 6. [Mustakshef-AI](https://github.com/alhaj-ai/Mustakshef-AI) — Interactive Arabic Vision & Phonics System
+[![Release](https://img.shields.io/github/v/release/alhaj-ai/Mustakshef-AI?style=flat-square&color=0F766E)](https://github.com/alhaj-ai/Mustakshef-AI/releases)
 
-`Flutter 3.x` · `Dart` · `FastAPI` · `PostgreSQL 15` · `SQLAlchemy` · `SQLite` · `Docker`
+`Python` · `YOLOv8-Seg` · `FastAPI` · `Edge TTS` · `Next.js 14` · `Docker`
 
-* **Design & Trade-offs**: Pairs a local-first Flutter client (`SQLite` via `sqflite`) with a **FastAPI + PostgreSQL** backend (`8` relational tables: `users`, `user_settings`, `categories`, `tasks`, `subtasks`, `recurrence_rules`, `reminders`, `calendar_events`) and dual-mode task decomposition (Gemini API with deterministic local fallback).
-* **Verified Execution**: Backend PostgreSQL schema, CRUD & delete-cascade integration tests + `flutter analyze` passing in GitHub Actions, with signed Android APK releases (`v1.0.0`).
+* **Design & Trade-offs**: Pairs `YOLOv8` instance segmentation across 82 Arabic object classes (`backend/main.py`) with bilingual bounding-mask annotation (`arabic_reshaper`, `python-bidi`, `NotoNaskhArabic-Regular.ttf`), character-level Arabic phonics breakdown, and neural speech synthesis (`ar-SA-HamedNeural` / `ar-SA-ZariyahNeural` with Google TTS HTTP fallback) rendered inside a responsive Next.js 14 camera/upload workflow.
+* **Verified Artifacts**: FastAPI inference & synthesis endpoints (`/segment`, `/api/tts`, `/labels`, `/health`), custom frontend camera/preset demo fallback, and published `v1.0.0` release.
 
 ---
 
@@ -124,7 +123,7 @@ evidence: planner model calls 1 (the plan was kept, not redone); duplicate side 
 | Repository | Scope & Core Implementation | Verification |
 | :--- | :--- | :--- |
 | [**data-migration-pipeline**](https://github.com/alhaj-ai/data-migration-pipeline) | Hybrid CSV-to-MongoDB ETL router (`src/file_router.py`) selecting Python streaming vs distributed **PySpark**, normalizing Eastern Arabic numerals/currency strings, and quarantining invalid rows via 9 quality rules | [![CI](https://img.shields.io/github/actions/workflow/status/alhaj-ai/data-migration-pipeline/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/alhaj-ai/data-migration-pipeline/actions) `15/15` pytest (`0.02s`) |
-| [**Mustakshef-AI**](https://github.com/alhaj-ai/Mustakshef-AI) | **YOLOv8** instance segmentation across 82 Arabic object classes (`backend/main.py`), Arabic letter phonics breakdown, **Edge TTS** neural voices, and `Next.js 14` UI | [![Release](https://img.shields.io/github/v/release/alhaj-ai/Mustakshef-AI?style=flat-square&color=0F766E)](https://github.com/alhaj-ai/Mustakshef-AI/releases) `v1.0.0` Release |
+| [**TaskFlow**](https://github.com/alhaj-ai/taskflow) | Offline-first **Flutter** (`SQLite sqflite`) + **FastAPI / PostgreSQL** (`8` relational tables) task ecosystem with Gemini task breakdown and local fallback | [![CI](https://img.shields.io/github/actions/workflow/status/alhaj-ai/taskflow/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/alhaj-ai/taskflow/actions) Backend + Flutter CI · `v1.0.0` APK |
 | [**Majles-AI**](https://github.com/alhaj-ai/Majles-AI) | Arabic meeting assistant combining **WhisperX** diarization, **FAISS + CrossEncoder** retrieval, and local **Ollama** Q&A (`Next.js 14`, `FastAPI`) | [![CI](https://img.shields.io/github/actions/workflow/status/alhaj-ai/Majles-AI/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/alhaj-ai/Majles-AI/actions) `4/4` pytest (`0.99s`) |
 | [**Mohawir-AI**](https://github.com/alhaj-ai/Mohawir-AI) | Technical interview simulator coordinating 5 **LangGraph** `StateGraph` agents, FAISS RAG, isolated code evaluation, and `Next.js 14` UI | [![CI](https://img.shields.io/github/actions/workflow/status/alhaj-ai/Mohawir-AI/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/alhaj-ai/Mohawir-AI/actions) `4/4` pytest (`0.59s`) |
 | [**Azal-AI**](https://github.com/alhaj-ai/Azal-AI) | Multi-agent e-commerce operations assistant with supervisor routing, supplier PDF invoice auditing, and **React 19** + local/cloud LLM hub | [![CI](https://img.shields.io/github/actions/workflow/status/alhaj-ai/Azal-AI/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/alhaj-ai/Azal-AI/actions) `2/2` pytest (`0.06s`) |
