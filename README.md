@@ -109,12 +109,13 @@ evidence: planner model calls 1 (the plan was kept, not redone); duplicate side 
 ---
 
 ### 6. [Mustakshef-AI](https://github.com/alhaj-ai/Mustakshef-AI) — Interactive Arabic Vision & Phonics System
+[![CI](https://img.shields.io/github/actions/workflow/status/alhaj-ai/Mustakshef-AI/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/alhaj-ai/Mustakshef-AI/actions)
 [![Release](https://img.shields.io/github/v/release/alhaj-ai/Mustakshef-AI?style=flat-square&color=0F766E)](https://github.com/alhaj-ai/Mustakshef-AI/releases)
 
 `Python` · `YOLOv8-Seg` · `FastAPI` · `Edge TTS` · `Next.js 14` · `Docker`
 
-* **Design & Trade-offs**: Pairs `YOLOv8` instance segmentation across 82 Arabic object classes (`backend/main.py`) with bilingual bounding-mask annotation (`arabic_reshaper`, `python-bidi`, `NotoNaskhArabic-Regular.ttf`), character-level Arabic phonics breakdown, and neural speech synthesis (`ar-SA-HamedNeural` / `ar-SA-ZariyahNeural` with Google TTS HTTP fallback) rendered inside a responsive Next.js 14 camera/upload workflow.
-* **Verified Artifacts**: FastAPI inference & synthesis endpoints (`/segment`, `/api/tts`, `/labels`, `/health`), custom frontend camera/preset demo fallback, and published `v1.0.0` release.
+* **Design & Trade-offs**: Pairs `YOLOv8` instance segmentation across 82 Arabic object classes (`backend/main.py`) with RTL visual pill annotation (`arabic_reshaper`, `python-bidi`, `NotoNaskhArabic-Regular.ttf`), diacritic-stripped Arabic phonics breakdown, concurrent per-letter neural speech synthesis (`ar-SA-HamedNeural` / `ar-SA-ZariyahNeural` with HTTP TTS fallback), explicit unrecognized empty states, and `Next.js 14` App Router UI.
+* **Verified Execution**: **`7 / 7` pytest API & phonics tests passing (`0.91s`)** + `Next.js` TypeScript & production build passing in GitHub Actions (*Backend API, Phonics & Pipeline Tests* · *Frontend TypeScript & Next.js Build*), with `v1.0.0` model weights release published.
 
 ---
 
