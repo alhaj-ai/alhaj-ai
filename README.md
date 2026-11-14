@@ -1,19 +1,10 @@
 # Mohammed Al-Haj
 
-**AI Systems Engineer** — Agent Runtimes, Deterministic Browser Replay, Hybrid RAG & Document Intelligence
+**AI Engineer** — Agentic Systems, Multi-Agent Workflows, Hybrid RAG, Document & Vision AI & Computer-Use Automation
 
 [GitHub](https://github.com/alhaj-ai) · [LinkedIn](https://linkedin.com/in/mohammed-mohammed-al-haj-341ab7369) · [X](https://x.com/mod_alhaj) · [ai.mohammed.alhaj@gmail.com](mailto:ai.mohammed.alhaj@gmail.com)
 
----
-
-## Engineering Approach
-
-I focus on building verifiable AI software where autonomous workflows run behind deterministic state guarantees, isolated environments, and automated test suites rather than unguarded prompt loops:
-
-- **Crash Recovery & State Integrity**: Append-only `SHA-256` execution ledgers, worker lease fencing, shadow workspace isolation, and idempotent patch promotion (`Haseen-AI`).
-- **Token & Latency Discipline**: Compiling one-time VLM browser traces into semantic YAML capability graphs executed deterministically at zero LLM cost (`Mutahakkim-AI`), paired with dual-path audio synthesis fallback (`Edge TTS` ➔ HTTP TTS) for multimodal voice output (`Mustakshef-AI`).
-- **Tenant Isolation & Grounded Provenance**: Per-user Qdrant collections, overlapping chunk indexing, strict page-level citations (`DocuMind-RAG`), and local `LayoutLMv3` / `XLM-RoBERTa` / `Ollama` execution for sensitive documents (`DocuShield-AI`, `Majles-AI`, `Azal-AI`).
-- **Reproducible Verification**: Live runnable CLI demos, `pytest` suites across core repositories, containerized setups, and automated GitHub Actions CI.
+> I build verifiable AI software backed by crash-recovery ledgers, deterministic browser replay, isolated multi-tenant retrieval, and automated `pytest` + GitHub Actions CI suites rather than unguarded prompt loops.
 
 ---
 
@@ -136,9 +127,9 @@ evidence: planner model calls 1 (the plan was kept, not redone); duplicate side 
 
 ## Core Technical Stack
 
-| Domain | Technologies |
+| Domain | Core Technologies & Protocols |
 | :--- | :--- |
-| **Agents & Orchestration** | `Python 3.11+` · `LangGraph` · `Playwright` · `Google Gemini` · `Ollama` · `Tavily` |
-| **Retrieval & Data Systems** | `Qdrant` · `FAISS` · `PostgreSQL` · `MongoDB` · `Apache Spark (PySpark)` · `SQLite` · `SQLAlchemy` |
-| **Models, Vision & Voice** | `PyTorch` · `LayoutLMv3` · `XLM-RoBERTa` · `Ultralytics YOLOv8` · `WhisperX` · `Edge TTS` · `Twilio` · `Deepgram` |
-| **Applications & Tooling** | `FastAPI` · `Next.js 14` · `React 19` · `TypeScript` · `Flutter` · `Docker` · `Pytest` · `GitHub Actions` |
+| **Agentic & LLM Systems** | `LangGraph` · `LangChain` · `Playwright` (Computer-Use) · `Google Gemini` · `Ollama` · `Tavily` · `Pydantic` |
+| **RAG, Vectors & Data** | `Qdrant` · `FAISS` · `CrossEncoder` · `PostgreSQL` · `MongoDB` · `Apache Spark (PySpark)` · `SQLite` · `SQLAlchemy` |
+| **Vision, Document & Speech AI** | `PyTorch` · `LayoutLMv3` · `XLM-RoBERTa` · `Ultralytics YOLOv8` · `WhisperX` · `Edge TTS` · `Twilio` · `Deepgram` |
+| **Languages, APIs & Infra** | `Python 3.11+` · `TypeScript` · `FastAPI` · `Next.js 14` · `React 19` · `Flutter` · `Docker` · `Pytest` · `GitHub Actions` |
