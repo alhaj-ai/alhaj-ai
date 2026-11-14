@@ -4,7 +4,13 @@
 
 [GitHub](https://github.com/alhaj-ai) · [LinkedIn](https://linkedin.com/in/mohammed-mohammed-al-haj-341ab7369) · [X](https://x.com/mod_alhaj) · [ai.mohammed.alhaj@gmail.com](mailto:ai.mohammed.alhaj@gmail.com)
 
-> I build verifiable AI software backed by crash-recovery ledgers, deterministic browser replay, isolated multi-tenant retrieval, and automated `pytest` + GitHub Actions CI suites rather than unguarded prompt loops.
+---
+
+## About
+
+AI Engineer specializing in multi-agent systems, hybrid RAG pipelines, document intelligence, computer vision, and deterministic computer-use automation. My focus is turning experimental AI workflows into verifiable software backed by crash-recovery state ledgers, zero-token deterministic replay, isolated multi-tenant retrieval, and automated `pytest` + CI verification.
+
+I build and ship systems end-to-end — from data pipelines (`PySpark`, `MongoDB`, `PostgreSQL`) and model training/inference (`PyTorch`, `YOLOv8`, `LayoutLMv3`, `XLM-RoBERTa`) to `FastAPI` / `Django REST` backends, `Next.js` / `React` / `Flutter` interfaces, Docker containers, and `GitHub Actions` CI/CD pipelines.
 
 ---
 
@@ -125,11 +131,14 @@ evidence: planner model calls 1 (the plan was kept, not redone); duplicate side 
 
 ---
 
-## Core Technical Stack
+## Skills & Technical Stack
 
-| Domain | Core Technologies & Protocols |
+| Domain | Technologies & Capabilities |
 | :--- | :--- |
-| **Agentic & LLM Systems** | `LangGraph` · `LangChain` · `Playwright` (Computer-Use) · `Google Gemini` · `Ollama` · `Tavily` · `Pydantic` |
-| **RAG, Vectors & Data** | `Qdrant` · `FAISS` · `CrossEncoder` · `PostgreSQL` · `MongoDB` · `Apache Spark (PySpark)` · `SQLite` · `SQLAlchemy` |
-| **Vision, Document & Speech AI** | `PyTorch` · `LayoutLMv3` · `XLM-RoBERTa` · `Ultralytics YOLOv8` · `WhisperX` · `Edge TTS` · `Twilio` · `Deepgram` |
-| **Languages, APIs & Infra** | `Python 3.11+` · `TypeScript` · `FastAPI` · `Next.js 14` · `React 19` · `Flutter` · `Docker` · `Pytest` · `GitHub Actions` |
+| **AI & Machine Learning** | `Machine Learning` · `Deep Learning` · `NLP` · `Computer Vision` · `Generative AI` · `LLMs` · `Hybrid RAG` · `AI Agents` · `Multi-Agent Orchestration` · `Prompt Engineering` |
+| **AI Frameworks & LLMs** | `PyTorch` · `TensorFlow` · `Hugging Face Transformers` · `LangGraph` · `LangChain` · `Scikit-learn` · `XGBoost` · `Pydantic` · `Google Gemini` · `Ollama` · `Tavily` |
+| **Vision, OCR & Speech** | `Ultralytics YOLOv8` · `LayoutLMv3` · `XLM-RoBERTa` · `OpenCV` · `EasyOCR` · `Tesseract OCR` · `spaCy` · `NLTK` · `WhisperX` · `Edge TTS` · `Twilio Media Streams` · `Deepgram` |
+| **Data, Vectors & Big Data** | `Qdrant` · `FAISS` · `CrossEncoder` · `Apache Spark (PySpark)` · `Pandas` · `NumPy` · `Matplotlib` · `Seaborn` · `ETL Pipelines` · `Data Analysis & Cleaning` |
+| **Languages & Databases** | `Python` · `TypeScript` · `JavaScript (ES6+)` · `SQL` · `Dart` · `PostgreSQL` · `MongoDB` · `SQLite` · `SQLAlchemy` |
+| **Web, Mobile & Automation** | `FastAPI` · `Django REST Framework` · `Next.js 14` · `React` · `Flutter` · `Streamlit` · `Playwright` (Computer-Use) · `REST APIs` · `WebSockets` · `SSE` · `JWT / Bcrypt` |
+| **DevOps, Testing & Tooling** | `Docker` · `Git` · `GitHub` · `GitHub Actions CI/CD` · `Pytest` · `Linux` |
