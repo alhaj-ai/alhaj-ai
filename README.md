@@ -12,7 +12,9 @@
 
 I design, fine-tune, and ship production AI systems, backed by hands-on experience in LLM engineering, agent harnesses, model adaptation, hybrid RAG, and computer vision.
 
-When engineering language and multi-agent workflows, I work from the model and retrieval layers up. I fine-tune Transformer and deep learning architectures with PyTorch and Hugging Face, implement hybrid vector search with tenant isolation and source grounding, and run both local open-weights models and cloud APIs. Around the LLM itself, I build the execution harness that makes autonomy reliable: stateful orchestration, strict schema boundaries, measurable evaluations, crash recovery, latency and cost controls, and automated test suites.
+For language and retrieval workflows, I fine-tune Transformer and deep learning architectures with PyTorch and Hugging Face, implement hybrid vector search with tenant isolation and source grounding, and run both local open-weights models and cloud APIs.
+
+Around the LLM itself, I build the execution harness that makes autonomy reliable: stateful orchestration, strict schema boundaries, measurable evaluations, crash recovery, latency and cost controls, and automated test suites.
 
 Because production AI depends on the infrastructure around the model, my experience also spans computer vision and OCR pipelines, real-time speech and voice applications, distributed PySpark and SQL/NoSQL data flows, and shipping complete services with FastAPI, Django, Next.js, Flutter, Docker, and GitHub Actions.
 
@@ -106,9 +108,9 @@ Single-pass web search agents often summarize incomplete drafts without catching
 [![CI](https://img.shields.io/github/actions/workflow/status/alhaj-ai/DocuShield-AI/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/alhaj-ai/DocuShield-AI/actions)
 [![Release](https://img.shields.io/github/v/release/alhaj-ai/DocuShield-AI?style=flat-square&color=0F766E)](https://github.com/alhaj-ai/DocuShield-AI/releases)
 
-`Python` · `PyTorch` · `LayoutLMv3` · `XLM-RoBERTa` · `FastAPI` · `Streamlit` · `Docker`
+`Python` · `PyTorch` · `Hugging Face Trainer` · `LayoutLMv3` · `XLM-RoBERTa` · `FastAPI` · `Streamlit` · `Docker`
 
-Sensitive institutional and clinical documents cannot safely be sent to external cloud APIs. The pipeline runs fine-tuned `LayoutLMv3` layout parsing (`models/problem1_layoutlmv3`), `XLM-RoBERTa` entity extraction (`models/problem2_xlmr_joint`), and deterministic Arabic PII redaction rules behind FastAPI and Streamlit.
+Sensitive institutional and clinical documents cannot safely be sent to external cloud APIs. Using Hugging Face `Trainer`, `src/problem1_document_understanding/train_layout_model.py` fine-tunes `LayoutLMv3` (`0.9856` eval F1, `0.9871` accuracy) and `src/problem2_ner_classification/train_ner.py` fine-tunes `XLM-RoBERTa` with `seqeval` (lifting cross-lingual NER from `0.1292` to `0.5606` eval F1), paired with deterministic Arabic PII redaction rules behind FastAPI and Streamlit.
 
 **Verification:** `9 / 9` pytest verification tests passing (`1.99s`) in GitHub Actions (*Document Intelligence & Yemeni PII Redaction Tests*).
 
@@ -152,3 +154,5 @@ An interactive Arabic vision and phonics system pairing `YOLOv8` instance segmen
 | **Languages & Databases** | `Python` · `TypeScript` · `JavaScript (ES6+)` · `SQL` · `Dart` · `PostgreSQL` · `MongoDB` · `SQLite` · `SQLAlchemy` |
 | **Web, Mobile & Automation** | `FastAPI` · `Django REST Framework` · `Next.js 14` · `React` · `Flutter` · `Streamlit` · `Playwright` · `REST APIs` · `WebSockets` · `SSE` · `JWT / Bcrypt` |
 | **DevOps, Testing & Tooling** | `Docker` · `Git` · `GitHub` · `GitHub Actions CI/CD` · `Pytest` · `Linux` |
+
+> *Flagship and Selected Domain sections highlight CI-verified repositories; additional TensorFlow, XGBoost, data-mining, and Django REST projects are available in the public repository archive.*
