@@ -1,6 +1,6 @@
 # Mohammed Al-Haj
 
-**AI Engineer** — Multi-Agent Systems, Hybrid RAG, Computer Vision, Document AI & Automation
+**AI Engineer** — LLMs · Model Fine-Tuning · Multi-Agent Systems · Hybrid RAG · Computer Vision · Data & Backend Engineering
 
 [GitHub](https://github.com/alhaj-ai) · [LinkedIn](https://linkedin.com/in/mohammed-mohammed-al-haj-341ab7369) · [X](https://x.com/mod_alhaj) · [ai.mohammed.alhaj@gmail.com](mailto:ai.mohammed.alhaj@gmail.com)
 
@@ -8,11 +8,11 @@
 
 ## About
 
-I work across the full lifecycle of AI systems, from training and evaluating machine learning, NLP, and computer vision models to shipping the backend APIs, data pipelines, and interfaces around them.
+I work across the full stack of AI engineering, from fine-tuning and evaluating deep learning, NLP, and computer vision models to designing LLM architectures, multi-agent systems, and the backend infrastructure around them.
 
-Most of my work focuses on making AI applications hold up outside a notebook. That usually means dealing with the unglamorous parts: recovering agent state cleanly after a crash, replacing slow vision-LLM loops with deterministic browser replay when possible, keeping sensitive Arabic documents and retrieval pipelines running on local models, and backing core logic with real automated tests and CI checks.
+A large part of my work focuses on LLM engineering and model adaptation: fine-tuning Transformer and vision architectures with PyTorch and Hugging Face, building hybrid RAG and vector search pipelines, coordinating multi-step agent workflows, and deploying both local open-weights models and cloud APIs. Outside the model layer, I pay close attention to evaluation metrics, failure recovery, cost and latency trade-offs, and automated testing.
 
-Across my repositories, that spans multi-agent orchestration, hybrid retrieval and citations, OCR and document redaction, real-time voice and speech pipelines, PySpark and NoSQL data engineering, and full-stack web and mobile services.
+Beyond language and agent systems, I also build computer vision and OCR pipelines, real-time speech and voice applications, distributed PySpark and NoSQL data pipelines, and the FastAPI, Django, web, mobile, and containerized services that tie everything together.
 
 ---
 
@@ -143,10 +143,10 @@ An interactive Arabic vision and phonics system pairing `YOLOv8` instance segmen
 
 | Domain | Technologies & Capabilities |
 | :--- | :--- |
-| **AI & Machine Learning** | `Machine Learning` · `Deep Learning` · `NLP` · `Computer Vision` · `Generative AI` · `LLMs` · `Hybrid RAG` · `AI Agents` · `Multi-Agent Orchestration` · `Prompt Engineering` |
-| **AI Frameworks & LLMs** | `PyTorch` · `TensorFlow` · `Hugging Face Transformers` · `LangGraph` · `LangChain` · `Scikit-learn` · `XGBoost` · `Pydantic` · `Google Gemini` · `Ollama` · `Tavily` |
+| **LLMs, Fine-Tuning & AI** | `Large Language Models (LLMs)` · `Model Fine-Tuning` · `Transfer Learning` · `Multi-Agent Orchestration` · `Hybrid RAG` · `Prompt Engineering` · `NLP` · `Computer Vision` · `Machine Learning` · `Deep Learning` |
+| **AI Frameworks & Serving** | `PyTorch` · `TensorFlow` · `Hugging Face Transformers & Trainer` · `LangGraph` · `LangChain` · `Scikit-learn` · `XGBoost` · `Pydantic` · `Ollama` · `LM Studio` · `Google Gemini` · `Tavily` |
 | **Vision, OCR & Speech** | `Ultralytics YOLOv8` · `LayoutLMv3` · `XLM-RoBERTa` · `OpenCV` · `EasyOCR` · `Tesseract OCR` · `spaCy` · `NLTK` · `WhisperX` · `Edge TTS` · `Twilio Media Streams` · `Deepgram` |
-| **Data, Vectors & Big Data** | `Qdrant` · `FAISS` · `CrossEncoder` · `Apache Spark (PySpark)` · `Pandas` · `NumPy` · `Matplotlib` · `Seaborn` · `ETL Pipelines` · `Data Analysis & Cleaning` |
+| **Data, Retrieval & Eval** | `Qdrant` · `FAISS` · `CrossEncoder` · `Apache Spark (PySpark)` · `Pandas` · `NumPy` · `Matplotlib` · `Seaborn` · `SeqEval / F1 Evaluation` · `ETL Pipelines` |
 | **Languages & Databases** | `Python` · `TypeScript` · `JavaScript (ES6+)` · `SQL` · `Dart` · `PostgreSQL` · `MongoDB` · `SQLite` · `SQLAlchemy` |
-| **Web, Mobile & Automation** | `FastAPI` · `Django REST Framework` · `Next.js 14` · `React` · `Flutter` · `Streamlit` · `Playwright` (Computer-Use) · `REST APIs` · `WebSockets` · `SSE` · `JWT / Bcrypt` |
+| **Web, Mobile & Automation** | `FastAPI` · `Django REST Framework` · `Next.js 14` · `React` · `Flutter` · `Streamlit` · `Playwright` · `REST APIs` · `WebSockets` · `SSE` · `JWT / Bcrypt` |
 | **DevOps, Testing & Tooling** | `Docker` · `Git` · `GitHub` · `GitHub Actions CI/CD` · `Pytest` · `Linux` |
