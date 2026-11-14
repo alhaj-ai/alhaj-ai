@@ -8,11 +8,11 @@
 
 ## About
 
-I work across the full stack of AI engineering, from fine-tuning and evaluating deep learning, NLP, and computer vision models to designing LLM architectures, multi-agent systems, and the backend infrastructure around them.
+I design, fine-tune, and ship production AI systems, backed by hands-on experience in LLM engineering, model adaptation, multi-agent workflows, hybrid RAG, and computer vision.
 
-A large part of my work focuses on LLM engineering and model adaptation: fine-tuning Transformer and vision architectures with PyTorch and Hugging Face, building hybrid RAG and vector search pipelines, coordinating multi-step agent workflows, and deploying both local open-weights models and cloud APIs. Outside the model layer, I pay close attention to evaluation metrics, failure recovery, cost and latency trade-offs, and automated testing.
+When building LLM and agent systems, I work from the model and retrieval layers up: fine-tuning Transformer and deep learning architectures with PyTorch and Hugging Face, building hybrid vector search with tenant isolation and source grounding, orchestrating stateful multi-agent graphs, and running both local open-weights models and cloud APIs. Alongside model quality, I build strict schema boundaries, measurable evaluations, crash recovery, latency and cost controls, and automated test suites.
 
-Beyond language and agent systems, I also build computer vision and OCR pipelines, real-time speech and voice applications, distributed PySpark and NoSQL data pipelines, and the FastAPI, Django, web, mobile, and containerized services that tie everything together.
+Because production AI depends on the infrastructure around the model, my experience also spans computer vision and OCR pipelines, real-time speech and voice systems, distributed PySpark and SQL/NoSQL data pipelines, and shipping applications with FastAPI, Django, Next.js, Flutter, Docker, and GitHub Actions.
 
 ---
 
