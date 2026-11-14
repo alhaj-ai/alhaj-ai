@@ -1,6 +1,6 @@
 # Mohammed Al-Haj
 
-**AI Engineer** — LLMs · Model Fine-Tuning · Multi-Agent Systems · Hybrid RAG · Computer Vision · Data & Backend Engineering
+**AI Engineer** — LLMs · Agent Harnesses · Model Fine-Tuning · Hybrid RAG · Computer Vision · Backend Systems
 
 [GitHub](https://github.com/alhaj-ai) · [LinkedIn](https://linkedin.com/in/mohammed-mohammed-al-haj-341ab7369) · [X](https://x.com/mod_alhaj) · [ai.mohammed.alhaj@gmail.com](mailto:ai.mohammed.alhaj@gmail.com)
 
@@ -8,11 +8,11 @@
 
 ## About
 
-I design, fine-tune, and ship production AI systems, backed by hands-on experience in LLM engineering, model adaptation, multi-agent workflows, hybrid RAG, and computer vision.
+I design, fine-tune, and ship production AI systems, backed by hands-on experience in LLM engineering, agent harnesses, model adaptation, hybrid RAG, and computer vision.
 
-When building LLM and agent systems, I work from the model and retrieval layers up: fine-tuning Transformer and deep learning architectures with PyTorch and Hugging Face, building hybrid vector search with tenant isolation and source grounding, orchestrating stateful multi-agent graphs, and running both local open-weights models and cloud APIs. Alongside model quality, I build strict schema boundaries, measurable evaluations, crash recovery, latency and cost controls, and automated test suites.
+When engineering language and multi-agent workflows, I work from the model and retrieval layers up: fine-tuning Transformer and deep learning architectures with PyTorch and Hugging Face, implementing hybrid vector search with tenant isolation and source grounding, and running both local open-weights models and cloud APIs. Around the LLM itself, I build the execution harness that makes autonomy reliable: stateful orchestration, strict schema boundaries, measurable evaluations, crash recovery, latency and cost controls, and automated test suites.
 
-Because production AI depends on the infrastructure around the model, my experience also spans computer vision and OCR pipelines, real-time speech and voice systems, distributed PySpark and SQL/NoSQL data pipelines, and shipping applications with FastAPI, Django, Next.js, Flutter, Docker, and GitHub Actions.
+Because production AI depends on the infrastructure around the model, my experience also spans computer vision and OCR pipelines, real-time speech and voice applications, distributed PySpark and SQL/NoSQL data flows, and shipping complete services with FastAPI, Django, Next.js, Flutter, Docker, and GitHub Actions.
 
 ---
 
@@ -143,7 +143,7 @@ An interactive Arabic vision and phonics system pairing `YOLOv8` instance segmen
 
 | Domain | Technologies & Capabilities |
 | :--- | :--- |
-| **LLMs, Fine-Tuning & AI** | `Large Language Models (LLMs)` · `Model Fine-Tuning` · `Transfer Learning` · `Multi-Agent Orchestration` · `Hybrid RAG` · `Prompt Engineering` · `NLP` · `Computer Vision` · `Machine Learning` · `Deep Learning` |
+| **LLMs, Fine-Tuning & AI** | `Large Language Models (LLMs)` · `Model Fine-Tuning` · `Transfer Learning` · `Agent Harnesses` · `Multi-Agent Orchestration` · `Hybrid RAG` · `Prompt Engineering` · `NLP` · `Computer Vision` · `Machine Learning` · `Deep Learning` |
 | **AI Frameworks & Serving** | `PyTorch` · `TensorFlow` · `Hugging Face Transformers & Trainer` · `LangGraph` · `LangChain` · `Scikit-learn` · `XGBoost` · `Pydantic` · `Ollama` · `LM Studio` · `Google Gemini` · `Tavily` |
 | **Vision, OCR & Speech** | `Ultralytics YOLOv8` · `LayoutLMv3` · `XLM-RoBERTa` · `OpenCV` · `EasyOCR` · `Tesseract OCR` · `spaCy` · `NLTK` · `WhisperX` · `Edge TTS` · `Twilio Media Streams` · `Deepgram` |
 | **Data, Retrieval & Eval** | `Qdrant` · `FAISS` · `CrossEncoder` · `Apache Spark (PySpark)` · `Pandas` · `NumPy` · `Matplotlib` · `Seaborn` · `SeqEval / F1 Evaluation` · `ETL Pipelines` |
