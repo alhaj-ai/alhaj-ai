@@ -4,13 +4,15 @@
 
 [GitHub](https://github.com/alhaj-ai) · [LinkedIn](https://linkedin.com/in/mohammed-mohammed-al-haj-341ab7369) · [X](https://x.com/mod_alhaj) · [ai.mohammed.alhaj@gmail.com](mailto:ai.mohammed.alhaj@gmail.com)
 
+**Open to:** AI / LLM Engineer roles · Remote
+
 ---
 
 ## About
 
 I design, fine-tune, and ship production AI systems, backed by hands-on experience in LLM engineering, agent harnesses, model adaptation, hybrid RAG, and computer vision.
 
-When engineering language and multi-agent workflows, I work from the model and retrieval layers up: fine-tuning Transformer and deep learning architectures with PyTorch and Hugging Face, implementing hybrid vector search with tenant isolation and source grounding, and running both local open-weights models and cloud APIs. Around the LLM itself, I build the execution harness that makes autonomy reliable: stateful orchestration, strict schema boundaries, measurable evaluations, crash recovery, latency and cost controls, and automated test suites.
+When engineering language and multi-agent workflows, I work from the model and retrieval layers up. I fine-tune Transformer and deep learning architectures with PyTorch and Hugging Face, implement hybrid vector search with tenant isolation and source grounding, and run both local open-weights models and cloud APIs. Around the LLM itself, I build the execution harness that makes autonomy reliable: stateful orchestration, strict schema boundaries, measurable evaluations, crash recovery, latency and cost controls, and automated test suites.
 
 Because production AI depends on the infrastructure around the model, my experience also spans computer vision and OCR pipelines, real-time speech and voice applications, distributed PySpark and SQL/NoSQL data flows, and shipping complete services with FastAPI, Django, Next.js, Flutter, Docker, and GitHub Actions.
 
