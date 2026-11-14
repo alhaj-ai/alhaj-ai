@@ -1,6 +1,6 @@
 # Mohammed Al-Haj
 
-**AI Engineer** — Agentic Systems, Multi-Agent Workflows, Hybrid RAG, Document & Vision AI & Computer-Use Automation
+**AI Engineer** — Multi-Agent Systems, Hybrid RAG, Computer Vision, Document AI & Automation
 
 [GitHub](https://github.com/alhaj-ai) · [LinkedIn](https://linkedin.com/in/mohammed-mohammed-al-haj-341ab7369) · [X](https://x.com/mod_alhaj) · [ai.mohammed.alhaj@gmail.com](mailto:ai.mohammed.alhaj@gmail.com)
 
@@ -8,9 +8,11 @@
 
 ## About
 
-AI Engineer specializing in multi-agent systems, hybrid RAG pipelines, document intelligence, computer vision, and deterministic computer-use automation. My focus is turning experimental AI workflows into verifiable software backed by crash-recovery state ledgers, zero-token deterministic replay, isolated multi-tenant retrieval, and automated `pytest` + CI verification.
+I work across the full lifecycle of AI systems, from training and evaluating machine learning, NLP, and computer vision models to shipping the backend APIs, data pipelines, and interfaces around them.
 
-I build and ship systems end-to-end — from data pipelines (`PySpark`, `MongoDB`, `PostgreSQL`) and model training/inference (`PyTorch`, `YOLOv8`, `LayoutLMv3`, `XLM-RoBERTa`) to `FastAPI` / `Django REST` backends, `Next.js` / `React` / `Flutter` interfaces, Docker containers, and `GitHub Actions` CI/CD pipelines.
+Most of my work focuses on making AI applications hold up outside a notebook. That usually means dealing with the unglamorous parts: recovering agent state cleanly after a crash, replacing slow vision-LLM loops with deterministic browser replay when possible, keeping sensitive Arabic documents and retrieval pipelines running on local models, and backing core logic with real automated tests and CI checks.
+
+Across my repositories, that spans multi-agent orchestration, hybrid retrieval and citations, OCR and document redaction, real-time voice and speech pipelines, PySpark and NoSQL data engineering, and full-stack web and mobile services.
 
 ---
 
@@ -22,8 +24,9 @@ I build and ship systems end-to-end — from data pipelines (`PySpark`, `MongoDB
 
 `Python 3.11` · `FastAPI` · `Pydantic` · `Next.js 14` · `Docker`
 
-* **Design & Trade-offs**: Long-running coding agents lose context or leave partial file edits if killed mid-run. `backend/haseen/` writes every stage to an append-only ledger with `SHA-256` checkpoints, fences stale workers using lease expiration, executes changes inside isolated shadow workspaces, and only promotes patches that pass validation gates.
-* **Verified Execution**: `PYTHONPATH=backend python -m haseen.cli demo crash` terminates the active worker with `SIGKILL` mid-run and resumes via a secondary worker without duplicate writes (`patch applied 1 time(s); repository fixed: True; duplicate side effects 0`). Passing CI job: *Crash Recovery & Runtime Verification*.
+Long-running coding agents lose progress or leave broken partial edits when a worker dies mid-task. Inside `backend/haseen/`, each execution step is recorded in an append-only ledger with `SHA-256` checkpoints, stale workers are fenced out using lease expiry, and diffs run inside an isolated shadow workspace before any patch is promoted.
+
+**Verification:** `PYTHONPATH=backend python -m haseen.cli demo crash` survives forced `SIGKILL` mid-run and completes via a second worker with `patch applied 1 time(s)` and `duplicate side effects 0`. Passing CI: *Crash Recovery & Runtime Verification*.
 
 <details>
 <summary>CLI Crash-Recovery Trace (verified live)</summary>
@@ -48,8 +51,9 @@ evidence: planner model calls 1 (the plan was kept, not redone); duplicate side 
 
 `Python 3.11` · `Playwright` · `FastAPI` · `Pydantic` · `PyYAML` · `Next.js 14`
 
-* **Design & Trade-offs**: Driving every browser interaction through a Vision LLM incurs high latency, token cost, and coordinate drift. `src/computer_use/compiler.py` and `replay.py` discover the workflow once, compile ARIA role/name locators into versioned YAML capability graphs with DOM pre/post guards and OTP operator handoff hooks, and replay deterministically via Playwright with **0 model calls**.
-* **Verified Execution**: `python -m mutahakkim.cli replay --capability lookup_savings_balance --member-id 10002 --headless` completes with **`model_calls: 0`** (`813ms` observed locally on Windows; `716ms` baseline documented in the repo). Passing CI job: *Capability Graph & CLI Verification*.
+Driving every browser click through a Vision LLM is slow, costly, and fragile when page coordinates shift. `src/computer_use/compiler.py` discovers the workflow once, compiles accessible ARIA role and name locators into versioned YAML capability graphs with pre/post DOM guards and OTP handoff hooks, and replays runs directly in Playwright without calling a model.
+
+**Verification:** `python -m mutahakkim.cli replay --capability lookup_savings_balance --member-id 10002 --headless` finishes with `model_calls: 0` (`813ms` locally on Windows; `716ms` baseline documented in the repo). Passing CI: *Capability Graph & CLI Verification*.
 
 <details>
 <summary>Zero-Token Replay Output (verified live)</summary>
@@ -78,8 +82,9 @@ evidence: planner model calls 1 (the plan was kept, not redone); duplicate side 
 
 `Python` · `FastAPI` · `Qdrant` · `PostgreSQL / SQLAlchemy` · `Google Gemini` · `Docker`
 
-* **Design & Trade-offs**: Enforces strict tenant isolation and answer provenance across uploaded PDFs. `rag/chunker.py` segments pages into `1,000`-character chunks with `200`-character overlap (`config.py`), `rag/vectorstore.py` isolates per-account **Qdrant** collections, `rag/citations.py` binds generated answers back to source page numbers, and `auth/security.py` guards endpoints with JWT + Bcrypt.
-* **Verified Execution**: **`17 / 17` pytest unit & integration tests passing (`5.00s`)** in GitHub Actions (*Hybrid RAG & Security Test Suite*).
+Shared vector indexes mix tenant data, and ungrounded Q&A answers make citation audits painful. `rag/chunker.py` splits PDFs into `1,000`-character chunks with `200`-character overlap (`config.py`), `rag/vectorstore.py` isolates each account in its own Qdrant collection, `rag/citations.py` links responses back to exact source pages, and `auth/security.py` protects routes with JWT and Bcrypt.
+
+**Verification:** `17 / 17` pytest unit and integration tests passing (`5.00s`) in GitHub Actions (*Hybrid RAG & Security Test Suite*).
 
 ---
 
@@ -89,8 +94,9 @@ evidence: planner model calls 1 (the plan was kept, not redone); duplicate side 
 
 `Python 3.11` · `LangGraph` · `FastAPI` · `Google Gemini` · `Tavily API` · `SSE` · `Docker`
 
-* **Design & Trade-offs**: Replaces single-shot web synthesis with a bounded cyclic `StateGraph` (`graph/workflow.py`: `planner` ➔ `searcher` ➔ `writer` ➔ `critic`, up to `MAX_REVISIONS=3`) supporting bilingual Arabic/English query decomposition, concurrent web search, critic-gated revision loops, and SSE progress streaming.
-* **Verified Execution**: **`12 / 12` pytest workflow, agent & API tests passing (`1.58s`)** in GitHub Actions (*Multi-Agent DeepResearch Tests*).
+Single-pass web search agents often summarize incomplete drafts without catching missing evidence. `graph/workflow.py` wires a cyclic LangGraph `StateGraph` (`planner` ➔ `searcher` ➔ `writer` ➔ `critic`, bounded by `MAX_REVISIONS=3`) for bilingual Arabic/English query planning, parallel retrieval, SSE streaming, and critic-gated revisions.
+
+**Verification:** `12 / 12` pytest workflow, agent, and API tests passing (`1.58s`) in GitHub Actions (*Multi-Agent DeepResearch Tests*).
 
 ---
 
@@ -100,8 +106,9 @@ evidence: planner model calls 1 (the plan was kept, not redone); duplicate side 
 
 `Python` · `PyTorch` · `LayoutLMv3` · `XLM-RoBERTa` · `FastAPI` · `Streamlit` · `Docker`
 
-* **Design & Trade-offs**: Built for sensitive institutional documents that cannot leave private infrastructure. Pairs fine-tuned `LayoutLMv3` visual document extraction (`models/problem1_layoutlmv3`), `XLM-RoBERTa` multilingual NER (`models/problem2_xlmr_joint`), and deterministic Arabic PII redaction rules behind FastAPI and Streamlit.
-* **Verified Execution**: **`9 / 9` pytest verification tests passing (`1.99s`)** in GitHub Actions (*Document Intelligence & Yemeni PII Redaction Tests*).
+Sensitive institutional and clinical documents cannot safely be sent to external cloud APIs. The pipeline runs fine-tuned `LayoutLMv3` layout parsing (`models/problem1_layoutlmv3`), `XLM-RoBERTa` entity extraction (`models/problem2_xlmr_joint`), and deterministic Arabic PII redaction rules behind FastAPI and Streamlit.
+
+**Verification:** `9 / 9` pytest verification tests passing (`1.99s`) in GitHub Actions (*Document Intelligence & Yemeni PII Redaction Tests*).
 
 ---
 
@@ -111,8 +118,9 @@ evidence: planner model calls 1 (the plan was kept, not redone); duplicate side 
 
 `Python` · `YOLOv8-Seg` · `FastAPI` · `Edge TTS` · `Next.js 14` · `Docker`
 
-* **Design & Trade-offs**: Pairs `YOLOv8` instance segmentation across 82 Arabic object classes (`backend/main.py`) with RTL visual pill annotation (`arabic_reshaper`, `python-bidi`, `NotoNaskhArabic-Regular.ttf`), diacritic-stripped Arabic phonics breakdown, concurrent per-letter neural speech synthesis (`ar-SA-HamedNeural` / `ar-SA-ZariyahNeural` with HTTP TTS fallback), explicit unrecognized empty states, and `Next.js 14` App Router UI.
-* **Verified Execution**: **`7 / 7` pytest API & phonics tests passing (`0.91s`)** + `Next.js` TypeScript & production build passing in GitHub Actions (*Backend API, Phonics & Pipeline Tests* · *Frontend TypeScript & Next.js Build*), with `v1.0.0` model weights release published.
+An interactive Arabic vision and phonics system pairing `YOLOv8` instance segmentation across 82 Arabic object classes (`backend/main.py`) with RTL visual overlays (`NotoNaskhArabic-Regular.ttf`), diacritic-stripped letter breakdown, concurrent neural speech synthesis (`ar-SA-HamedNeural` / `ar-SA-ZariyahNeural` with HTTP TTS fallback), explicit unrecognized empty states, and a Next.js 14 interface.
+
+**Verification:** `7 / 7` pytest API and phonics tests passing (`0.91s`) plus Next.js TypeScript check and production build passing in GitHub Actions, alongside published `v1.0.0` model weights.
 
 ---
 
