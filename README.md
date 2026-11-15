@@ -2,7 +2,7 @@
 
 **AI Engineer** — LLMs · Agent Harnesses · Model Fine-Tuning · Hybrid RAG · Computer Vision · Backend Systems
 
-[GitHub](https://github.com/alhaj-ai) · [LinkedIn](https://linkedin.com/in/mohammed-mohammed-al-haj-341ab7369) · [X](https://x.com/mod_alhaj) · [ai.mohammed.alhaj@gmail.com](mailto:ai.mohammed.alhaj@gmail.com)
+[Portfolio](https://alhaj-ai.github.io) · [GitHub](https://github.com/alhaj-ai) · [LinkedIn](https://linkedin.com/in/mohammed-mohammed-al-haj-341ab7369) · [X](https://x.com/mod_alhaj) · [ai.mohammed.alhaj@gmail.com](mailto:ai.mohammed.alhaj@gmail.com)
 
 **Open to:** AI / LLM Engineer roles · Remote
 
