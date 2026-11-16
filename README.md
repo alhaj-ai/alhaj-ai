@@ -10,7 +10,7 @@ Open to remote AI and LLM Engineering roles.
 
 ## About
 
-AI Engineer with 3+ years of experience designing and deploying generative AI and machine learning systems end to end. Architects RAG and multi-agent systems (Qdrant, FAISS, LangGraph, LangChain) with reliability built in: tenant data isolation, source-cited answers, crash recovery and automated testing. Fine-tunes and integrates models for tool calling, MCP, vision and voice (PyTorch, Hugging Face, YOLOv8, WhisperX), including Arabic speech and documents. Delivers systems as FastAPI services with Docker, CI/CD (GitHub Actions) and PySpark data pipelines.
+AI Engineer with 3+ years of experience designing and deploying generative AI and machine learning systems end to end. Architects RAG and multi-agent systems (Qdrant, FAISS, LangGraph, LangChain) with reliability built in: tenant data isolation, source-cited answers, crash recovery and automated testing. Fine-tunes and integrates models for tool calling, MCP, vision and voice (PyTorch, Hugging Face, YOLOv8, OCR , WhisperX), including Arabic speech and documents. Delivers systems with MLOps practices: FastAPI services, Docker, CI/CD (GitHub Actions), OpenTelemetry tracing and PySpark data pipelines.
 
 ---
 
