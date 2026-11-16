@@ -10,11 +10,7 @@ Open to remote AI and LLM Engineering roles.
 
 ## About
 
-I build applied LLM systems, retrieval pipelines, and fine-tuned models backed by clean APIs and automated tests.
-
-For private workloads that cannot leave local hardware, I train Transformer and vision models with PyTorch and Hugging Face Trainer, and isolate document embeddings per account in Qdrant and FAISS with source page citations.
-
-On the application side, I connect models to LangGraph workflows, FastAPI and Django backends, Next.js interfaces, Flutter mobile apps, and real-time voice streams, with Docker builds and pytest checks on GitHub Actions.
+AI Engineer with 3+ years of experience designing and deploying generative AI and machine learning systems end to end. Architects RAG and multi-agent systems (Qdrant, FAISS, LangGraph, LangChain) with reliability built in: tenant data isolation, source-cited answers, crash recovery and automated testing. Fine-tunes and integrates models for tool calling, MCP, vision and voice (PyTorch, Hugging Face, YOLOv8, WhisperX), including Arabic speech and documents. Delivers systems as FastAPI services with Docker, CI/CD (GitHub Actions) and PySpark data pipelines.
 
 ---
 
