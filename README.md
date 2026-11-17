@@ -2,7 +2,7 @@
 
 **AI Engineer** | Building Fault-Tolerant Agentic Systems | LLMs · RAG · Multi-Agent Workflows · Computer-Use Automation · Model Fine-Tuning
 
-[Portfolio](https://alhaj-ai.github.io) · [GitHub](https://github.com/alhaj-ai) · [LinkedIn](https://linkedin.com/in/mohammed-mohammed-al-haj-341ab7369) · [X](https://x.com/mod_alhaj) · [ai.mohammed.alhaj@gmail.com](mailto:ai.mohammed.alhaj@gmail.com)
+[Portfolio](https://alhaj-ai.github.io) · [GitHub](https://github.com/alhaj-ai) · [LinkedIn](https://www.linkedin.com/in/alhaj-ai) · [X](https://x.com/mod_alhaj) · [ai.mohammed.alhaj@gmail.com](mailto:ai.mohammed.alhaj@gmail.com)
 
 Open to remote AI and LLM Engineering roles.
 
